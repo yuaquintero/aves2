@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="8dp"
+    android:background="@drawable/back"
+    tools:context="com.example.administrador.aves.Home">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tunk"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/boton_avistamiento"
+            android:background="@drawable/borde"
+            android:text="@string/home1"
+            android:layout_width="210dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+        <Button
+            android:id="@+id/boton_rutas"
+            android:layout_width="210dp"
+            android:background="@drawable/borde"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:text="@string/home5"
+            android:scaleType="fitCenter"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+        <Button
+            android:id="@+id/boton_turismo"
+            android:text="@string/home4"
+            android:layout_width="210dp"
+            android:background="@drawable/borde"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/botonturismo"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+        <Button
+            android:id="@+id/boton_guias"
+            android:text="@string/home6"
+            android:gravity="center"
+            android:background="@drawable/borde"
+            android:layout_gravity="center"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/botonguias"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </LinearLayout>
+        <Button
+            android:id="@+id/boton_Recomendaciones"
+            android:text="@string/home7"
+            android:background="@drawable/borde"
+            android:layout_width="210dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/botonrecomendacion"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingBottom="0.5dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="0dp"
+    android:background="@drawable/back_2"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_ave_info"
+        android:orientation="vertical"
+        android:background="@drawable/back_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="1dp"
+        tools:context="com.example.administrador.aves.Ave_info">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/fondoav"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:layout_height="0dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="horizontal"
+                    android:layout_height="0dp">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:id="@+id/back"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/backb"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="10"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/ave_foto"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:id="@+id/next"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/nextb"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:layout_height="0dp">
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/ave_nombre"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Ave N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/ave_nombre_en"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="BIRD N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/ave_nombre_cientifico"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:text="Pajarus Pajarus N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/avistamiento3"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/chequeo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btnTomaFoto"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/camera"
+                    android:layout_gravity="center"/>
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="1dp">
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/ave_link"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/play"
+                    android:layout_gravity="center"/>
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="1dp">
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnCompartir"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/foto_gallery"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:id="@+id/describe"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave1"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion1"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave2"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion2"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave3"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion3"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave4"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion4"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave5"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion5"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave6"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion6"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave7"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion7"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/Tituloave8"
+                android:background="@color/whitesmoket"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/info8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_gravity="start"
+                android:id="@+id/ave_informacion8"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+
+

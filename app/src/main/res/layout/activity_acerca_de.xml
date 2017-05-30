@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_2"
+    android:orientation="vertical"
+    android:id="@+id/activity_acerca_de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrador.aves.Acerca_de"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Acercade5"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                card_view:cardElevation="3dp"
+                card_view:cardCornerRadius="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                card_view:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="18"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5">
+                            <ImageButton
+                                android:id="@+id/credits1"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/back3"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="15">
+                            <ImageView
+                                android:id="@+id/imagenacercade"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/cambio"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:orientation="horizontal"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5">
+                            <ImageButton
+                                android:id="@+id/credits2"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/next3"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="0dp"
+                        android:layout_weight="6">
+
+                        <ImageButton
+                            android:id="@+id/botonenlace"
+                            android:layout_width="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="clip_horizontal"
+                            android:foregroundGravity="center_horizontal"
+                            android:background="@drawable/worldwide"
+                            android:layout_height="30dp">
+                        </ImageButton>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Acercade2"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:gravity="center"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp">
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Acercade3"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Acercade4"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"/>
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/propiedad"
+                        android:layout_height="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_avistamiento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back_2"
+    android:screenOrientation="portrait"
+    tools:context="com.example.administrador.aves.Avistamiento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/gray"
+                    android:layout_height="2dp">
+                </LinearLayout>
+
+                <TextView
+                    android:clickable="true"
+                    android:onClick="toggle_contents_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCriterio5"
+                    android:text="@string/info1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:id="@+id/formas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="left">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/ivAve"
+                        android:src="@drawable/avessinfondo"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp" />
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner5">
+                    </Spinner>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/gray"
+                    android:layout_height="2dp">
+                </LinearLayout>
+
+
+
+                <!--Forma Pico-->
+                <TextView
+                    android:clickable="true"
+                    android:onClick="toggle_contents_anim2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCriterio4"
+                    android:text="@string/info2"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:id="@+id/picos1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="left">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/ivPico"
+                        android:src="@drawable/avessinfondo"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp" />
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner4">
+                    </Spinner>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/gray"
+                    android:layout_height="2dp">
+                </LinearLayout>
+                <!--Color1-->
+                <TextView
+                    android:clickable="true"
+                    android:onClick="toggle_contents_anim3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCriterio1"
+                    android:text="@string/info3"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:id="@+id/colores1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="left">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/ivColor1"
+                        android:src="@drawable/colorful"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp" />
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner1">
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/gray"
+                        android:layout_height="2dp">
+                    </LinearLayout>
+                    <!--Color2-->
+                    <TextView
+                        android:clickable="true"
+                        android:onClick="toggle_contents_anim3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvCriterio2"
+                        android:text="@string/info4"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"/>
+
+                    <LinearLayout
+                        android:id="@+id/colores2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="left">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:id="@+id/ivColor2"
+                            android:src="@drawable/colorful"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="30dp" />
+
+                        <Spinner
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner2">
+                        </Spinner>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        <!--Enviar-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bFiltrar"
+            android:layout_margin="15dp"
+            android:alpha="0.8"
+            android:text="@string/filtro2"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</ScrollView>
