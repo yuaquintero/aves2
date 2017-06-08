@@ -29,7 +29,7 @@ public class adaptador_aves extends RecyclerView.Adapter<adaptador_aves.MyViewHo
         String[] nombreave = new String[150];
         String contador,nombres;
         Integer cuenta=0;
-        String[] numero = new String[290];
+        String[] numero = new String[282];
 
         public MyViewHolder(View view) {
             super(view);
@@ -44,7 +44,7 @@ public class adaptador_aves extends RecyclerView.Adapter<adaptador_aves.MyViewHo
 
 
             //Para los extras de cada ave
-            for (int j = 0; j < 290; j ++){
+            for (int j = 0; j < 282; j ++){
                 numero[j]= Integer.toString(j+1);
             }
 
@@ -61,877 +61,852 @@ public class adaptador_aves extends RecyclerView.Adapter<adaptador_aves.MyViewHo
 
 
                     switch (dato){
-                        case "Tinamú Cabecirrojo":
+                        case "Zorsal Pico Naranja":
                             lanzarAve(view,numero[0]);
                             break;
-                        case "Cormorán neotropical":
+                        case "Cormorán Neotropical":
                             lanzarAve(view,numero[1]);
                             break;
-                        case "Garcilla bueyera":
+                        case "Garcilla Bueyera":
                             lanzarAve(view,numero[2]);
                             break;
-                        case "Garza real":
+                        case "Garza Real":
                             lanzarAve(view,numero[3]);
                             break;
-                        case "Garcita estriada":
+                        case "Garcita Estriada":
                             lanzarAve(view,numero[4]);
                             break;
-                        case "Ibis afeitado o coquito":
+                        case "Ibis Afeitado O Coquito":
                             lanzarAve(view,numero[5]);
                             break;
-                        case "Barraquete aliazul":
+                        case "Barraquete Aliazul":
                             lanzarAve(view,numero[6]);
                             break;
-                        case "Pato torrentero":
+                        case "Guala Cabeciroja":
                             lanzarAve(view,numero[7]);
                             break;
-                        case "Guala Cabeciroja":
+                        case "Gallinazo":
                             lanzarAve(view,numero[8]);
                             break;
-                        case "Gallinazo":
+                        case "Aguila Pescadora":
                             lanzarAve(view,numero[9]);
                             break;
-                        case "Aguila Pescadora":
+                        case "Pinzon Picofino":
                             lanzarAve(view,numero[10]);
                             break;
-                        case "Aguila Tijereta":
+                        case "Caracolero Piquiganchudo":
                             lanzarAve(view,numero[11]);
                             break;
-                        case "Caracolero piquiganchudo":
+                        case "Elanio Maromero":
                             lanzarAve(view,numero[12]);
                             break;
-                        case "Elanio maromero":
+                        case "Elanio Enano":
                             lanzarAve(view,numero[13]);
                             break;
-                        case "Elanio enano":
+                        case "Gavilán Pollero":
                             lanzarAve(view,numero[14]);
                             break;
-                        case "Gavilán Pollero":
+                        case "Gavilán Americano":
                             lanzarAve(view,numero[15]);
                             break;
-                        case "Gavilán americano":
+                        case "Gavilan Aliancho":
                             lanzarAve(view,numero[16]);
                             break;
-                        case "Gavilan aliancho":
+                        case "Gavilan Colicorto":
                             lanzarAve(view,numero[17]);
                             break;
-                        case "Gavilan colicorto":
+                        case "Gavilán Coliblanco":
                             lanzarAve(view,numero[18]);
                             break;
-                        case "Gavilán coliblanco":
+                        case "Gavilan Negro":
                             lanzarAve(view,numero[19]);
                             break;
-                        case "Gavilan negro":
+                        case "Águila Poma":
                             lanzarAve(view,numero[20]);
                             break;
-                        case "Águila poma":
+                        case "Caracara Muñudo":
                             lanzarAve(view,numero[21]);
                             break;
-                        case "Caracara muñudo":
+                        case "Pigua":
                             lanzarAve(view,numero[22]);
                             break;
-                        case "Pigua":
+                        case "Halcón Reidor":
                             lanzarAve(view,numero[23]);
                             break;
-                        case "Halcón reidor":
+                        case "Cernícalo americano":
                             lanzarAve(view,numero[24]);
                             break;
-                        case "Cernícalo americano":
+                        case "Guacharaca":
                             lanzarAve(view,numero[25]);
                             break;
-                        case "Guacharaca":
+                        case "Pava Maraquera":
                             lanzarAve(view,numero[26]);
                             break;
-                        case "Pava maraquera":
+                        case "Rascón Negruzco":
                             lanzarAve(view,numero[27]);
                             break;
-                        case "Perdiz colorada":
+                        case "Caravana":
                             lanzarAve(view,numero[28]);
                             break;
-                        case "Rascón negruzco":
+                        case "Agachadiza Noble":
                             lanzarAve(view,numero[29]);
                             break;
-                        case "Caravana":
+                        case "Paloma Collareja":
                             lanzarAve(view,numero[30]);
                             break;
-                        case "Agachadiza noble":
+                        case "Paloma Colorada":
                             lanzarAve(view,numero[31]);
                             break;
-                        case "Paloma collareja":
+                        case "Tortolita":
                             lanzarAve(view,numero[32]);
                             break;
-                        case "Paloma colorada":
+                        case "Torcaza Naguiblanca":
                             lanzarAve(view,numero[33]);
                             break;
-                        case "Tortolita":
+                        case "Paloma Montaraz Común":
                             lanzarAve(view,numero[34]);
                             break;
-                        case "Torcaza naguiblanca":
+                        case "Cotorra Frentirroja":
                             lanzarAve(view,numero[35]);
                             break;
-                        case "Paloma montaraz común":
+                        case "Loro Orejiamarillo":
                             lanzarAve(view,numero[36]);
                             break;
-                        case "Paloma perdiz gorjiblanca":
+                        case "Periquito De Anteojos":
                             lanzarAve(view,numero[37]);
                             break;
-                        case "Cotorra frentirroja":
+                        case "Cotorra Gorriblanca":
                             lanzarAve(view,numero[38]);
                             break;
-                        case "Loro Orejiamarillo":
+                        case "Cotorra Alibronceada O Mocha":
                             lanzarAve(view,numero[39]);
                             break;
-                        case "Periquito de anteojos":
+                        case "Cuco Ardilla":
                             lanzarAve(view,numero[40]);
                             break;
-                        case "Cotorra gorriblanca":
+                        case "Garrapatero":
                             lanzarAve(view,numero[41]);
                             break;
-                        case "Cotorra alibronceada o mocha":
+                        case "Lechuza común":
                             lanzarAve(view,numero[42]);
                             break;
-                        case "Cuco ardilla":
+                        case "Currucutu":
                             lanzarAve(view,numero[43]);
                             break;
-                        case "Garrapatero":
+                        case "Buho Ocelado":
                             lanzarAve(view,numero[44]);
                             break;
-                        case "Lechuza común":
+                        case "Mochuelo Andino":
                             lanzarAve(view,numero[45]);
                             break;
-                        case "Currucutu":
+                        case "Bienparado Comun":
                             lanzarAve(view,numero[46]);
                             break;
-                        case "Buho ocelado":
+                        case "Chotacabras Pauraque":
                             lanzarAve(view,numero[47]);
                             break;
-                        case "Mochuelo andino":
+                        case "Guardacaminos Andino":
                             lanzarAve(view,numero[48]);
                             break;
-                        case "Bienparado comun":
+                        case "Guardacaminos Lyra":
                             lanzarAve(view,numero[49]);
                             break;
-                        case "Chotacabras pauraque":
+                        case "Vencejo Acollarado":
                             lanzarAve(view,numero[50]);
                             break;
-                        case "Guardacaminos andino":
+                        case "Garcita Verdosa":
                             lanzarAve(view,numero[51]);
                             break;
-                        case "Guardacaminos lyra":
+                        case "Ermitaño Verde":
                             lanzarAve(view,numero[52]);
                             break;
-                        case "Vencejo acollarado":
+                        case "Cucarachero Chupoahuevos":
                             lanzarAve(view,numero[53]);
                             break;
-                        case "Vencejo rrojcuellio":
+                        case "Colibrí Picolanza Mayor":
                             lanzarAve(view,numero[54]);
                             break;
-                        case "Ermitaño verde":
+                        case "Colibrí Verdemar":
                             lanzarAve(view,numero[55]);
                             break;
-                        case "Ermitaño ventrihabano":
+                        case "Garrapatero Mayor":
                             lanzarAve(view,numero[56]);
                             break;
-                        case "Colibrí picolanza mayor":
+                        case "Colibrí Rutilante":
                             lanzarAve(view,numero[57]);
                             break;
-                        case "Colibrí verdemar":
+                        case "Colibrí Pardo":
                             lanzarAve(view,numero[58]);
                             break;
-                        case "Colibrí nuquiblanco":
+                        case "Mango Pechinegro":
                             lanzarAve(view,numero[59]);
                             break;
-                        case "Colibrí rutilante":
+                        case "Esmeralda Occidental":
                             lanzarAve(view,numero[60]);
                             break;
-                        case "Colibrí pardo":
+                        case "Esmeralda Andina":
                             lanzarAve(view,numero[61]);
                             break;
-                        case "Mango pechinegro":
+                        case "Amazilia Verdiazul":
                             lanzarAve(view,numero[62]);
                             break;
-                        case "Esmeralda Occidental":
+                        case "Amazilia Colirufa":
                             lanzarAve(view,numero[63]);
                             break;
-                        case "Esmeralda andina":
+                        case "Colibrí Pechipunteado":
                             lanzarAve(view,numero[64]);
                             break;
-                        case "Amazilia verdiazul":
+                        case "Brillante Pechigamuza":
                             lanzarAve(view,numero[65]);
                             break;
-                        case "Amazilia colirufa":
+                        case "Brillante Emperador":
                             lanzarAve(view,numero[66]);
                             break;
-                        case "Colibrí pechipunteado":
+                        case "Halcon Murcielaguero":
                             lanzarAve(view,numero[67]);
                             break;
-                        case "Brillante pechigamuza":
+                        case "Colibrí Aterciopelado":
                             lanzarAve(view,numero[68]);
                             break;
-                        case "Brillante emperador":
+                        case "Inca Bronceado":
                             lanzarAve(view,numero[69]);
                             break;
-                        case "Halcon Murcielaguero":
+                        case "Inca Pardo":
                             lanzarAve(view,numero[70]);
                             break;
-                        case "Colibrí aterciopelado":
+                        case "Carpintero Pechi Punteado":
                             lanzarAve(view,numero[71]);
                             break;
-                        case "Inca bronceado":
+                        case "Inca Acollarado":
                             lanzarAve(view,numero[72]);
                             break;
-                        case "Inca pardo":
+                        case "Colibrí Picoespada":
                             lanzarAve(view,numero[73]);
                             break;
-                        case "Inca de Antioquía":
+                        case "Colibrí Colihabano":
                             lanzarAve(view,numero[74]);
                             break;
-                        case "Inca acollarado":
+                        case "Colibrí Sietecolores":
                             lanzarAve(view,numero[75]);
                             break;
-                        case "Colibrí picoespada":
+                        case "Colibrí Turmalina":
                             lanzarAve(view,numero[76]);
                             break;
-                        case "Colibrí colihabano":
+                        case "Calzadito Reluciente":
                             lanzarAve(view,numero[77]);
                             break;
-                        case "Colibrí sietecolores":
+                        case "Calzadito Verdoso Norteño":
                             lanzarAve(view,numero[78]);
                             break;
-                        case "Colibrí turmalina":
+                        case "Colibrí de Raquetas":
                             lanzarAve(view,numero[79]);
                             break;
-                        case "Calzadito reluciente":
+                        case "Reinita Cabecigris":
                             lanzarAve(view,numero[80]);
                             break;
-                        case "Calzadito verdoso norteño":
+                        case "Metalura Tiria":
                             lanzarAve(view,numero[81]);
                             break;
-                        case "Colibrí de raquetas":
+                        case "Silfo Coliverde":
                             lanzarAve(view,numero[82]);
                             break;
-                        case "Colibri dorsimorado":
+                        case "Silfo Coliceleste":
                             lanzarAve(view,numero[83]);
                             break;
-                        case "Metalura tiria":
+                        case "Colibrí Piquilargo":
                             lanzarAve(view,numero[84]);
                             break;
-                        case "Silfo coliverde":
+                        case "Colibrí De Mitchell":
                             lanzarAve(view,numero[85]);
                             break;
-                        case "Silfo coliceleste":
+                        case "Colibrí De Mulsant":
                             lanzarAve(view,numero[86]);
                             break;
-                        case "Colibrí piquilargo":
+                        case "Quetzal Cabecidorado":
                             lanzarAve(view,numero[87]);
                             break;
-                        case "Colibrí de Mitchell":
+                        case "trogon Enmascarado":
                             lanzarAve(view,numero[88]);
                             break;
-                        case "Colibrí de Mulsant":
+                        case "Martín Pescador Gigante":
                             lanzarAve(view,numero[89]);
                             break;
-                        case "Quetzal cabecidorado":
+                        case "Guardacaminos Migratorio":
                             lanzarAve(view,numero[90]);
                             break;
-                        case "Trogón acollarado":
+                        case "Martín Pescador Verde":
                             lanzarAve(view,numero[91]);
                             break;
-                        case "Trogón enmascarado":
+                        case "Barranquero":
                             lanzarAve(view,numero[92]);
                             break;
-                        case "Martín pescador gigante":
+                        case "Bigotudo Canoso":
                             lanzarAve(view,numero[93]);
                             break;
-                        case "Guardacaminos Migratorio":
+                        case "Buco Cariblanco":
                             lanzarAve(view,numero[94]);
                             break;
-                        case "Martín pescador verde":
+                        case "Torito Cabecirrojo":
                             lanzarAve(view,numero[95]);
                             break;
-                        case "Barranquero":
+                        case "Tucaneta Esmeralda":
                             lanzarAve(view,numero[96]);
                             break;
-                        case "Bigotudo canoso":
+                        case "Tucaneta Culirroja":
                             lanzarAve(view,numero[97]);
                             break;
-                        case "Buco cariblanco":
+                        case "Terlaque Pechiazul":
                             lanzarAve(view,numero[98]);
                             break;
-                        case "Torito cabecirrojo":
+                        case "Carpinterito Colombiano":
                             lanzarAve(view,numero[99]);
                             break;
-                        case"Tucaneta esmeralda":
+                        case "Carpintero Carmesi":
                             lanzarAve(view,numero[100]);
                             break;
-                        case"Tucaneta culirroja":
+                        case "Carpintero Oliváceo":
                             lanzarAve(view,numero[101]);
                             break;
-                        case"Terlaque pechiazul":
+                        case "Carpintero Real":
                             lanzarAve(view,numero[102]);
                             break;
-                        case "Carpinterito colombiano":
+                        case "Carpintero Bellotero":
                             lanzarAve(view,numero[103]);
                             break;
-                        case "Carpintero carmesi":
+                        case "Carpintero Habado":
                             lanzarAve(view,numero[104]);
                             break;
-                        case "Carpintero oliváceo":
+                        case "Carpintero Ahumado":
                             lanzarAve(view,numero[105]);
                             break;
-                        case "Carpintero real":
+                        case "Carpintero Ventriamarillo":
                             lanzarAve(view,numero[106]);
                             break;
-                        case "Carpintero bellotero":
+                        case "Carpintero Gigante":
                             lanzarAve(view,numero[107]);
                             break;
-                        case "Carpintero habado":
+                        case "Trepatroncos Tiranino":
                             lanzarAve(view,numero[108]);
                             break;
-                        case "Carpintero ahumado":
+                        case "Reinita De Tennessee":
                             lanzarAve(view,numero[109]);
                             break;
-                        case "Carpintero ventriamarillo":
+                        case "Trepatroncos Cabecirrayado":
                             lanzarAve(view,numero[110]);
                             break;
-                        case "Carpintero gigante":
+                        case "Trepatroncos Montano":
                             lanzarAve(view,numero[111]);
                             break;
-                        case "Trepatroncos Tiranino":
+                        case "Picoguadaña Andino":
                             lanzarAve(view,numero[112]);
                             break;
-                        case "Trepatroncos Manchado":
+                        case "Piscuis De Azara":
                             lanzarAve(view,numero[113]);
                             break;
-                        case "Trepatroncos Cabecirrayado":
+                        case "Martinete Común":
                             lanzarAve(view,numero[114]);
                             break;
-                        case "Trepatroncos Montano":
+                        case "Chamicero Palido":
                             lanzarAve(view,numero[115]);
                             break;
-                        case "Picoguadaña Andino":
+                        case "Búho Rayado":
                             lanzarAve(view,numero[116]);
                             break;
-                        case "Piscuis de Azara":
+                        case "Chamicero Rubicundo":
                             lanzarAve(view,numero[117]);
                             break;
-                        case "Chamicero de antifaz":
+                        case "Trepatroncos Perlado":
                             lanzarAve(view,numero[118]);
                             break;
-                        case "Chamicero palido":
+                        case "Maria Mulata":
                             lanzarAve(view,numero[119]);
                             break;
-                        case "Chamicero cejiblanco":
+                        case "Trepatroncos Gorgiblanco":
                             lanzarAve(view,numero[120]);
                             break;
-                        case "Chamicero rubicundo":
+                        case "Hojarasquero Montañero":
                             lanzarAve(view,numero[121]);
                             break;
-                        case "Trepatroncos Perlado":
+                        case "Hojarasquero Grande":
                             lanzarAve(view,numero[122]);
                             break;
-                        case "Trepatroncos Moteado":
+                        case "Xenops Estriado":
                             lanzarAve(view,numero[123]);
                             break;
-                        case "Trepatroncos gorgiblanco":
+                        case "Tordo Llanero":
                             lanzarAve(view,numero[124]);
                             break;
-                        case "Hojarasquero montañero":
+                        case "Batará Carcajada":
                             lanzarAve(view,numero[125]);
                             break;
-                        case "Hojarasquero grande":
+                        case "Hormiguero Tiznado":
                             lanzarAve(view,numero[126]);
                             break;
-                        case "Xenops estriado":
+                        case "Saltator Grisaceo":
                             lanzarAve(view,numero[127]);
                             break;
-                        case "Saltarocas punteado":
+                        case "Hormiguerito Rabilargo":
                             lanzarAve(view,numero[128]);
                             break;
-                        case "Batará Carcajada":
+                        case "Reinita Amarilla":
                             lanzarAve(view,numero[129]);
                             break;
-                        case "Hormiguero Tiznado":
+                        case "Tororoí Comprapan":
                             lanzarAve(view,numero[130]);
                             break;
-                        case "Hormiguero de Parker":
+                        case "Tororoí Nuquicastaño":
                             lanzarAve(view,numero[131]);
                             break;
-                        case "Hormiguerito Rabilargo":
+                        case "Tororoí Rufo":
                             lanzarAve(view,numero[132]);
                             break;
-                        case "Tororoí gigante":
+                        case "Totoroí Enano":
                             lanzarAve(view,numero[133]);
                             break;
-                        case "Tororoí Comprapan":
+                        case "Soldadito":
                             lanzarAve(view,numero[134]);
                             break;
-                        case "Tororoí Nuquicastaño":
+                        case "Vireo Ojirrojo":
                             lanzarAve(view,numero[135]);
                             break;
-                        case "Tororoí Rufo":
+                        case "Tapaculo Ocelado":
                             lanzarAve(view,numero[136]);
                             break;
-                        case "Totoroí Enano":
+                        case "Gallito De Roca":
                             lanzarAve(view,numero[137]);
                             break;
-                        case "Tapaculo Negruzco":
+                        case "Cotinga Crestirroja":
                             lanzarAve(view,numero[138]);
                             break;
-                        case "Tapaculo de Spillmann":
+                        case "Cotinga Cresticastaño":
                             lanzarAve(view,numero[139]);
                             break;
-                        case "Tapaculo Ocelado":
+                        case "Frutero Verdinegro":
                             lanzarAve(view,numero[140]);
                             break;
-                        case "Gallito de Roca":
+                        case "Frutero Barrado":
                             lanzarAve(view,numero[141]);
                             break;
-                        case "Cotinga Crestirroja":
+                        case "Guardabosques Cenizo":
                             lanzarAve(view,numero[142]);
                             break;
-                        case "Cotinga Cresticastaño":
+                        case "Becard Barrado":
                             lanzarAve(view,numero[143]);
                             break;
-                        case "Frutero Verdinegro":
+                        case "Becard Aliblanco":
                             lanzarAve(view,numero[144]);
                             break;
-                        case "Frutero Barrado":
+                        case "Mosquerito Capirotado":
                             lanzarAve(view,numero[145]);
                             break;
-                        case "Guardabosques cenizo":
+                        case "Mosquerito Caridorado":
                             lanzarAve(view,numero[146]);
                             break;
-                        case "Becard Barrado":
+                        case "Mosquerito Silbón":
                             lanzarAve(view,numero[147]);
                             break;
-                        case "Becard Aliblanco":
+                        case "Elaenia Copetona":
                             lanzarAve(view,numero[148]);
                             break;
-                        case "Mosquerito Capirotado":
+                        case "Elaenia Montañera":
                             lanzarAve(view,numero[149]);
                             break;
-                        case "Mosquerito Caridorado":
+                        case "Mosquero Verdoso":
                             lanzarAve(view,numero[150]);
                             break;
-                        case "Mosquerito Silbón":
+                        case "Tiranuelo Gorgiblanco":
                             lanzarAve(view,numero[151]);
                             break;
-                        case "Elaenia Copetona":
+                        case "Siriri Bueyero":
                             lanzarAve(view,numero[152]);
                             break;
-                        case "Elaenia Montañera":
+                        case "Tiranuelo Colilargo":
                             lanzarAve(view,numero[153]);
                             break;
-                        case "Mosquero Verdoso":
+                        case "Tiranuelo Saltarroyos":
                             lanzarAve(view,numero[154]);
                             break;
-                        case "Tiranuelo Gorgiblanco":
+                        case "Atrapamoscas Sepia":
                             lanzarAve(view,numero[155]);
                             break;
-                        case "Siriri Bueyero":
+                        case "Atrapamoscas Pechirrufo":
                             lanzarAve(view,numero[156]);
                             break;
-                        case "Tiranuelo Colilargo":
+                        case "Atrapamoscas Marmoreo":
                             lanzarAve(view,numero[157]);
                             break;
-                        case "Tiranuelo Saltarroyos":
+                        case "Atrapamoscas Variegado":
                             lanzarAve(view,numero[158]);
                             break;
-                        case "Mosquero Gorgiestriado":
+                        case "Tiranuelo Coronado":
                             lanzarAve(view,numero[159]);
                             break;
-                        case "Atrapamoscas sepia":
+                        case "Tiranuelo Cabecirrojo":
                             lanzarAve(view,numero[160]);
                             break;
-                        case "Atrapamoscas pechirrufo":
+                        case "Espatulita Común":
                             lanzarAve(view,numero[161]);
                             break;
-                        case "Atrapamoscas marmoreo":
+                        case "Picoplano Sulfuroso":
                             lanzarAve(view,numero[162]);
                             break;
-                        case "Atrapamoscas variegado":
+                        case "Atrapamoscas Amarillento":
                             lanzarAve(view,numero[163]);
                             break;
-                        case "Tiranuelo coronado":
+                        case "Atrapamoscas Pechirayado":
                             lanzarAve(view,numero[164]);
                             break;
-                        case "Tiranuelo Cabecirrojo":
+                        case "Atrapamoscas Canela":
                             lanzarAve(view,numero[165]);
                             break;
-                        case "Picochato carinegro":
+                        case "Pibí Ahumado":
                             lanzarAve(view,numero[166]);
                             break;
-                        case "Espatulita Común":
+                        case "Atrapamoscas Cuidapuentes":
                             lanzarAve(view,numero[167]);
                             break;
-                        case "Picoplano Sulfuroso":
+                        case "Pitajo Pechirrufo":
                             lanzarAve(view,numero[168]);
                             break;
-                        case "Atrapamoscas amarillento":
+                        case "Pitajo Torrentero":
                             lanzarAve(view,numero[169]);
                             break;
-                        case "Atrapamoscas pechirayado":
+                        case "Pitajo Diademado":
                             lanzarAve(view,numero[170]);
                             break;
-                        case "Atrapamoscas canela":
+                        case "Atrapamoscas Chiflaperros":
                             lanzarAve(view,numero[171]);
                             break;
-                        case "Pibí Ahumado":
+                        case "Atrapamoscas Tiznado":
                             lanzarAve(view,numero[172]);
                             break;
-                        case "Atrapamoscas cuidapuentes":
+                        case "Atrapamoscas Montañero":
                             lanzarAve(view,numero[173]);
                             break;
-                        case "Pitajo Pechirrufo":
+                        case "Bichofue":
                             lanzarAve(view,numero[174]);
                             break;
-                        case "Pitajo torrentero":
+                        case "Bienteveo Alicastaño":
                             lanzarAve(view,numero[175]);
                             break;
-                        case "Pitajo diademado":
+                        case "Siriri Rayado":
                             lanzarAve(view,numero[176]);
                             break;
-                        case "Atrapamoscas chiflaperros":
+                        case "Bienteveo Lagartero":
                             lanzarAve(view,numero[177]);
                             break;
-                        case "Atrapamoscas tiznado":
+                        case "Siriri Tijereta":
                             lanzarAve(view,numero[178]);
                             break;
-                        case "Atrapamoscas Montañero":
+                        case "Siriri Comun":
                             lanzarAve(view,numero[179]);
                             break;
-                        case "Bichofue":
+                        case "Golondrina Azul Y Blanca":
                             lanzarAve(view,numero[180]);
                             break;
-                        case "Bienteveo Alicastaño":
+                        case "Golondrina Gorgirrufa":
                             lanzarAve(view,numero[181]);
                             break;
-                        case "Siriri Rayado":
+                        case "Urraca Collareja":
                             lanzarAve(view,numero[182]);
                             break;
-                        case "Bienteveo Lagartero":
+                        case "Carriqui Pechiblanco":
                             lanzarAve(view,numero[183]);
                             break;
-                        case "Siriri norteño":
+                        case "Carriqui Ventriamarillo":
                             lanzarAve(view,numero[184]);
                             break;
-                        case "Siriri tijereta":
+                        case "Mirlo-Acuático Coroniblanco":
                             lanzarAve(view,numero[185]);
                             break;
-                        case "siriri comun":
+                        case "Cucarachero Rufo":
                             lanzarAve(view,numero[186]);
                             break;
-                        case "Golondrina azul y blanca":
+                        case "Cucarachero Sepia":
                             lanzarAve(view,numero[187]);
                             break;
-                        case "Golondrina Gorgirrufa":
+                        case "Cucarachero Comun":
                             lanzarAve(view,numero[188]);
                             break;
-                        case "Urraca Collareja":
+                        case "Cucarachero Montañero":
                             lanzarAve(view,numero[189]);
                             break;
-                        case "Carriqui pechiblanco":
+                        case "Cucarachero De Munchique":
                             lanzarAve(view,numero[190]);
                             break;
-                        case "carriqui ventriamarillo":
+                        case "Cucarachero Pechigrís":
                             lanzarAve(view,numero[191]);
                             break;
-                        case "Mirlo-acuático Coroniblanco":
+                        case "Cucarachero Bigotudo Montano":
                             lanzarAve(view,numero[192]);
                             break;
-                        case "Cucarachero Rufo":
+                        case "Sinsonte":
                             lanzarAve(view,numero[193]);
                             break;
-                        case "Cucarachero Sepia":
+                        case "Solitario Andino O Culumpio":
                             lanzarAve(view,numero[194]);
                             break;
-                        case "Cucarachero comun":
+                        case "Zorzalito De Swainson":
                             lanzarAve(view,numero[195]);
                             break;
-                        case "Cucarachero montañero":
+                        case "Mirlo Grande":
                             lanzarAve(view,numero[196]);
                             break;
-                        case "Cucarachero de Munchique":
+                        case "Mirlo Serrano":
                             lanzarAve(view,numero[197]);
                             break;
-                        case "Cucarachero Pechigrís":
+                        case "Mayo":
                             lanzarAve(view,numero[198]);
                             break;
-                        case "Cucarachero Bigotudo Montano":
+                        case "Zorzal Pardo":
                             lanzarAve(view,numero[199]);
                             break;
-                        case "Sinsonte":
+                        case "Verderon Piquinegro":
                             lanzarAve(view,numero[200]);
                             break;
-                        case "Solitario andino o culumpio":
+                        case "Vireo Coronipardo":
                             lanzarAve(view,numero[201]);
                             break;
-                        case "Zorzalito de Swainson":
+                        case "Chamon":
                             lanzarAve(view,numero[202]);
                             break;
-                        case "Mirlo Grande":
+                        case "Chamon Gigante":
                             lanzarAve(view,numero[203]);
                             break;
-                        case "Mirlo Serrano":
+                        case "Gulungo":
                             lanzarAve(view,numero[204]);
                             break;
-                        case "Mayo":
+                        case "Cacique Montañero":
                             lanzarAve(view,numero[205]);
                             break;
-                        case "Zorzal Pardo":
+                        case "Cacique Subtropical":
                             lanzarAve(view,numero[206]);
                             break;
-                        case "Verderon Piquinegro":
+                        case "Cacique Candela":
                             lanzarAve(view,numero[207]);
                             break;
-                        case "Vireo Coronipardo":
+                        case "Turpial Dorsidorado":
                             lanzarAve(view,numero[208]);
                             break;
-                        case "Chamon":
+                        case "Reinita Trepadora":
                             lanzarAve(view,numero[209]);
                             break;
-                        case "Chamon gigante":
+                        case "Reinita Alidorada":
                             lanzarAve(view,numero[210]);
                             break;
-                        case "Gulungo":
+                        case "Reinita Tropical":
                             lanzarAve(view,numero[211]);
                             break;
-                        case "Cacique Montañero":
+                        case "Reinita Gorjinaranja":
                             lanzarAve(view,numero[212]);
                             break;
-                        case "Cacique Subtropical":
+                        case "Candelita Plomiza":
                             lanzarAve(view,numero[213]);
                             break;
-                        case "Cacique candela":
+                        case "Candelita Adornada":
                             lanzarAve(view,numero[214]);
                             break;
-                        case "Turpial Dorsidorado":
+                        case "Reinita Citrina":
                             lanzarAve(view,numero[215]);
                             break;
-                        case "Reinita Trepadora":
+                        case "Reinita Coronirroja":
                             lanzarAve(view,numero[216]);
                             break;
-                        case "Reinita Alidorada":
+                        case "Reinita Cabecilistada":
                             lanzarAve(view,numero[217]);
                             break;
-                        case "Reinita Tropical":
+                        case "Conirrostro Dorsiazul":
                             lanzarAve(view,numero[218]);
                             break;
-                        case "Reinita Gorjinaranja":
+                        case "Conirrostro Coronado":
                             lanzarAve(view,numero[219]);
                             break;
-                        case "Candelita plomiza":
+                        case "Mielerito Comun":
                             lanzarAve(view,numero[220]);
                             break;
-                        case "Candelita Adornada":
+                        case "Pinchaflor Azulado":
                             lanzarAve(view,numero[221]);
                             break;
-                        case "Reinita Citrina":
+                        case "Pinchaflor Enmascarado":
                             lanzarAve(view,numero[222]);
                             break;
-                        case "Reinita Coronirroja":
+                        case "Pinchaflor Flanquiblanco":
                             lanzarAve(view,numero[223]);
                             break;
-                        case "Reinita Cabecilistada":
+                        case "Mielerito Verde":
                             lanzarAve(view,numero[224]);
                             break;
-                        case "Conirrostro Dorsiazul":
+                        case "Clorofonia Nuquiazul":
                             lanzarAve(view,numero[225]);
                             break;
-                        case "Conirrostro Coronado":
+                        case "Eufonia Cabeciazul":
                             lanzarAve(view,numero[226]);
                             break;
-                        case "Mielerito comun":
+                        case "Eufonia Ventrinaranja":
                             lanzarAve(view,numero[227]);
                             break;
-                        case "Pinchaflor Azulado":
+                        case "Eufonia Piquigruesa":
                             lanzarAve(view,numero[228]);
                             break;
-                        case "Pinchaflor Enmascarado":
+                        case "Tangara Dorada":
                             lanzarAve(view,numero[229]);
                             break;
-                        case "Pinchaflor Flanquiblanco":
+                        case "Tangara Coronada":
                             lanzarAve(view,numero[230]);
                             break;
-                        case "Mielerito Verde":
+                        case "Tangara Verdiplata":
                             lanzarAve(view,numero[231]);
                             break;
-                        case "Clorofonia Nuquiazul":
+                        case "Tangara Real":
                             lanzarAve(view,numero[232]);
                             break;
-                        case "Clorofonia Pechicastaña":
+                        case "Tangara Nuquirrufa":
                             lanzarAve(view,numero[233]);
                             break;
-                        case "Eufonia cabeciazul":
+                        case "Tangara Cabecibaya":
                             lanzarAve(view,numero[234]);
                             break;
-                        case "Eufonia Ventrinaranja":
+                        case "Tangara Rastrojera":
                             lanzarAve(view,numero[235]);
                             break;
-                        case "Eufonia Piquigruesa":
+                        case "Tangara De Lentejuelas":
                             lanzarAve(view,numero[236]);
                             break;
-                        case "Tangara Dorada":
+                        case "Tangara Azulinegra":
                             lanzarAve(view,numero[237]);
                             break;
-                        case "Tangara Coronada":
+                        case "Tangara Capirotada":
                             lanzarAve(view,numero[238]);
                             break;
-                        case "Tangara Verdiplata":
+                        case "Tangara Capiazul":
                             lanzarAve(view,numero[239]);
                             break;
-                        case "Tangara real":
+                        case "Tangara Coronidorada":
                             lanzarAve(view,numero[240]);
                             break;
-                        case "Tangara Nuquirrufa":
+                        case "Tangara De Antifaz":
                             lanzarAve(view,numero[241]);
                             break;
-                        case "Tangara Cabecibaya":
+                        case "Tangara Lacrimosa":
                             lanzarAve(view,numero[242]);
                             break;
-                        case "Tangara Rastrojera":
+                        case "Tangara Primavera":
                             lanzarAve(view,numero[243]);
                             break;
-                        case "Tangara de Lentejuelas":
+                        case "Tangara Montana":
                             lanzarAve(view,numero[244]);
                             break;
-                        case "Tangara Azulinegra":
+                        case "Tangara Diadema":
                             lanzarAve(view,numero[245]);
                             break;
-                        case "Tangara Capirotada":
+                        case "Azulejo":
                             lanzarAve(view,numero[246]);
                             break;
-                        case "Tangara Capiazul":
+                        case "Tangara Palmera":
                             lanzarAve(view,numero[247]);
                             break;
-                        case "Tangara Coroniadora":
+                        case "Tangara Coroniazul":
                             lanzarAve(view,numero[248]);
                             break;
-                        case "Tangara de Antifaz":
+                        case "Toche Pico De plata":
                             lanzarAve(view,numero[249]);
                             break;
-                        case "Tangara Lacrimosa":
+                        case "Toche":
                             lanzarAve(view,numero[250]);
                             break;
-                        case "Tangara Primavera":
+                        case "Piranga Bermeja":
                             lanzarAve(view,numero[251]);
                             break;
-                        case "Tangara Montana":
+                        case "Piranga Roja":
                             lanzarAve(view,numero[252]);
                             break;
-                        case "Tangara Diadema":
+                        case "Piranga Escarlata":
                             lanzarAve(view,numero[253]);
                             break;
-                        case "Azulejo":
+                        case "Piranga Capuchirroja":
                             lanzarAve(view,numero[254]);
                             break;
-                        case "Tangara Palmera":
+                        case "Habia Copetona":
                             lanzarAve(view,numero[255]);
                             break;
-                        case "Tangara Coroniazul":
+                        case "Tangara Negra":
                             lanzarAve(view,numero[256]);
                             break;
-                        case "Toche Pico de plata":
+                        case "Tiranuelo Murino":
                             lanzarAve(view,numero[257]);
                             break;
-                        case "Toche":
+                        case "Tangara Güirá":
                             lanzarAve(view,numero[258]);
                             break;
-                        case "Piranga Bermeja":
+                        case "Pollo De Monte o Rey Del Quindio":
                             lanzarAve(view,numero[259]);
                             break;
-                        case "Piranga Roja":
+                        case "Tangara Capuchigrís":
                             lanzarAve(view,numero[260]);
                             break;
-                        case "Piranga Escarlata":
+                        case "Hemispingo Capirotado":
                             lanzarAve(view,numero[261]);
                             break;
-                        case "Piranga Capuchirroja":
+                        case "Tangara Lorito":
                             lanzarAve(view,numero[262]);
                             break;
-                        case "Habia Copetona":
+                        case "Gorrion Afelpado":
                             lanzarAve(view,numero[263]);
                             break;
-                        case "Tangara Negra":
+                        case "Saltador Ajisero":
                             lanzarAve(view,numero[264]);
                             break;
-                        case "Tangara Crestirrufa":
+                        case "Saltador Alinegro":
                             lanzarAve(view,numero[265]);
                             break;
-                        case "Tangara Güirá":
+                        case "Saltador Pio Judio":
                             lanzarAve(view,numero[266]);
                             break;
-                        case "Pollo De Monte o Rey Del Quindio":
+                        case "Picogordo Degollado":
                             lanzarAve(view,numero[267]);
                             break;
-                        case "Tangara Capuchigrís":
+                        case "Gorrion Tangarino":
                             lanzarAve(view,numero[268]);
                             break;
-                        case "Hemispingo Capirotado":
+                        case "Atlapetes Gorgiamarillo":
                             lanzarAve(view,numero[269]);
                             break;
-                        case "Tangara Lorito":
+                        case "Gorrion Montés Pizarra":
                             lanzarAve(view,numero[270]);
                             break;
-                        case "Gorrion afelpado":
+                        case "Gorrion Montés Collarejo":
                             lanzarAve(view,numero[271]);
                             break;
-                        case "Saltador ajisero":
+                        case "Semillero Cariamarillo":
                             lanzarAve(view,numero[272]);
                             break;
-                        case "Saltador Alinegro":
+                        case "Semillero Intermedio":
                             lanzarAve(view,numero[273]);
                             break;
-                        case "Saltador pio judio":
+                        case "Semillero Negriblanco":
                             lanzarAve(view,numero[274]);
                             break;
-                        case "Picogordo Degollado":
+                        case "Semillero Capuchino":
                             lanzarAve(view,numero[275]);
                             break;
-                        case "Gorrion Tangarino":
+                        case "Semillero Volatinero":
                             lanzarAve(view,numero[276]);
                             break;
-                        case "Atlapetes gorgiamarillo":
+                        case "Copetoncito":
                             lanzarAve(view,numero[277]);
                             break;
-                        case "Gorrion montés pizarra":
+                        case "Boton Se Oro":
                             lanzarAve(view,numero[278]);
                             break;
-                        case "Gorrion Montés Collarejo":
+                        case "Jilguero Ventriamarillo":
                             lanzarAve(view,numero[279]);
                             break;
-                        case "Semillero cariamarillo":
+                        case "Jilguero Menor":
                             lanzarAve(view,numero[280]);
                             break;
-                        case "Semillero Intermedio":
+                        case "Paloma Comun":
                             lanzarAve(view,numero[281]);
                             break;
-                        case "Semillero Negriblanco":
-                            lanzarAve(view,numero[282]);
-                            break;
-                        case "Semillero Capuchino":
-                            lanzarAve(view,numero[283]);
-                            break;
-                        case "Semillero Volatinero":
-                            lanzarAve(view,numero[284]);
-                            break;
-                        case "Copetoncito":
-                            lanzarAve(view,numero[285]);
-                            break;
-                        case "Boton de oro":
-                            lanzarAve(view,numero[286]);
-                            break;
-                        case "Jilguero Ventriamarillo":
-                            lanzarAve(view,numero[287]);
-                            break;
-                        case "Jilguero Menor":
-                            lanzarAve(view,numero[288]);
-                            break;
-                        case "Paloma comun":
-                            lanzarAve(view,numero[289]);
-                            break;
-
                     }
 
 

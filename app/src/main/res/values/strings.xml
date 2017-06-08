@@ -3,11 +3,9 @@
     <string name="Titulo_Splash"> COTINGA </string>
 
     <string name="home"> home </string>
-    <string name="home1"> Registrar Avistamiento </string>
-    <string name="home2"> Aves </string>
-    <string name="home3"> Perfil </string>
+    <string name="home1"> Aves </string>
     <string name="home4"> Turismo </string>
-    <string name="home5"> Rutas </string>
+    <string name="home5"> Rutas de Avistamiento </string>
     <string name="home6"> Guías </string>
     <string name="home7"> Recomendaciones </string>
 
@@ -15,14 +13,13 @@
     <string name="menu2"> Acerca de </string>
     <string name="menu3"> Enlaces de interés </string>
 
-    <string name="submenu1"> Ingles </string>
+    <string name="submenu1"> Inglés </string>
     <string name="submenu2"> Español </string>
 
-    <string name="Acercade"> CRÉDITOS </string>
-    <string name="Acercade2"> Aplicación desarrollada por el sistema de investigacion, desarrollo tecnologico e innovación Sennova </string>
+    <string name="Acercade2"> Aplicación desarrollada por el sistema de investigación, desarrollo tecnológico e innovación Sennova </string>
     <string name="Acercade3"> Todos los derechos reservados  </string>
     <string name="Acercade4">  Medellín-2017 </string>
-    <string name="Acercade5">  Cotinga es posible gracias a la colaboracion de: </string>
+    <string name="Acercade5">  Cotinga es posible gracias a la colaboración de: </string>
 
     <string name="info1">  Forma del Ave </string>
     <string name="info2">  Forma del Pico </string>
@@ -46,7 +43,7 @@
 
     <string name="formainfo1">  Otros </string>
     <string name="formainfo2">  Rapaz </string>
-    <string name="formainfo3">  Buho </string>
+    <string name="formainfo3">  Búho </string>
     <string name="formainfo4">  Colibrí </string>
     <string name="formainfo5">  Loro </string>
     <string name="formainfo6">  Trepatroncos </string>
@@ -57,14 +54,14 @@
 
     <string name="picoinfo1">  Otros </string>
     <string name="picoinfo2">  Rapaz </string>
-    <string name="picoinfo3">  Nectivoro </string>
+    <string name="picoinfo3">  Nectívoro </string>
     <string name="picoinfo4">  Multiusos </string>
     <string name="picoinfo5">  Semillero </string>
-    <string name="picoinfo6">  Frugivoro </string>
+    <string name="picoinfo6">  Frugívoro </string>
     <string name="picoinfo7">  Barbudo </string>
-    <string name="picoinfo8">  Insectivoro </string>
+    <string name="picoinfo8">  Insectívoro </string>
     <string name="picoinfo9">  Generalista </string>
-    <string name="picoinfo10"> Oropendola </string>
+    <string name="picoinfo10"> Oropéndola </string>
 
     <string name="colorinfo1">  Otros </string>
     <string name="colorinfo2">  Amarillo </string>
@@ -78,45 +75,40 @@
     <string name="colorinfo10"> Negro </string>
     <string name="colorinfo11"> Pardo </string>
     <string name="colorinfo12"> Rojo </string>
-    <string name="colorinfo13"> Rosado </string>
-    <string name="colorinfo14"> Rufo </string>
-    <string name="colorinfo15"> Turquesa </string>
-    <string name="colorinfo16"> Verde </string>
-    <string name="colorinfo17"> Violeta </string>
-    <string name="colorinfo18"> Beige </string>
-    <string name="colorinfo19"> Oliva </string>
+    <string name="colorinfo13"> Rufo </string>
+    <string name="colorinfo14"> Verde</string>
 
+    <string name="filtro1"> CRITERIOS DE BÚSQUEDA</string>
+    <string name="filtro1_dialogo"> Aquí encontrará un filtro donde podrá identificar y registrar las aves que está viendo durante el recorrido</string>
 
-    <string name="filtro1"> CRITERIOS DE BUSQUEDA</string>
     <string name="filtro2"> Buscar </string>
     <string name="filtro3"> Volver </string>
 
-    <string name="recomiendame"> Selecciona cada uno de los items del paisaje para obtener información general</string>
+    <string name="recomiendame_dialogo"> A continuación encontrará una serie de recomendaciones para que la experiencia de avistamiento de aves en Jardín sea agradable, segura y amigable con el medio ambiente</string>
+    <string name="recomiendame"> Pulse sobre cada globo para obtener información:</string>
 
-    <string name="recor1"> Tenga clara la ruta que quiere realizar </string>
+    <string name="recor1"> - Tenga clara la ruta que quiere realizar </string>
     <string name="recor2"> - Use ropa cómoda y adecuada para la ocasión preferiblemente colores opacos y resistentes al agua </string>
-    <string name="recor3"> Lleve siempre hidratación y alimentos </string>
-    <string name="recor4"> Procure en el momento del avistamiento no Hacer movimientos ni ruidos fuertes, converse siempre con un tono de voz bajo </string>
+    <string name="recor3"> - Lleve siempre hidratación y alimentos </string>
+    <string name="recor4"> - Procure en el momento del avistamiento no hacer movimientos ni ruidos fuertes, converse siempre con un tono de voz bajo </string>
     <string name="recor5"> - Sea paciente, recuerde que las aves viven a su ritmo </string>
-    <string name="recor6"> - En lo posible salga acompañado por un guía local, esto le facilitara el reconocimiento de las rutas y las especies de aves </string>
-    <string name="recor7"> Respete al máximo los lugares señalados como privados o restringidos al público </string>
-    <string name="recor8"> No arrojar basuras, respete los ecosistemas; no extraiga material natural de los bosques, senderos y carreteras </string>
-    <string name="recor9"> - Si dispone de binoculares, cámaras y guías de campo llévelos siempre con usted esto le facilitara el desarrollo de la actividad </string>
+    <string name="recor6"> - En lo posible salga acompañado por un guía local, esto le facilitará el reconocimiento de las rutas y las especies de aves </string>
+    <string name="recor7"> - Respete al máximo los lugares señalados como privados o restringidos al público </string>
+    <string name="recor8"> - No arroje basuras, respete los ecosistemas; no extraiga material natural de los bosques, senderos y/o carreteras </string>
+    <string name="recor9"> - Si dispone de binoculares, cámaras y guías de campo llévelos siempre con usted, esto le facilitará el desarrollo de la actividad </string>
     <string name="recor10"> - Planee siempre la hora de regreso, infórmese de los horarios de transporte si va a hacer uso del servicio público </string>
-    <string name="recor11"> Tenga presente que la actividad de las aves por su estado silvestre es cambiante y no siempre se encontraran en el lugar esperado </string>
+    <string name="recor11"> - Tenga presente que la actividad de las aves por su estado silvestre es cambiante y no siempre se encontrarán en el lugar esperado </string>
     <string name="recor12"> - Atienda siempre a las recomendaciones de su guía local </string>
 
 
-    <string name="turismoinfo1">Direccion:</string>
-    <string name="turismoinfo2">Telefono:</string>
+    <string name="turismoinfo1">Dirección:</string>
+    <string name="turismoinfo2">Teléfono:</string>
     <string name="turismoinfo3">E-mail:</string>
     <string name="turismoinfo4">Distancia desde la cabecera:</string>
     <string name="turismoinfo5">Ruta:</string>
-    <string name="turismoinfo6">Acerca de este lugar:</string>
+    <string name="turismoinfo6">Información:</string>
 
     <string name="Redes">Visitar:</string>
-
-
 
     <string name="link">Visitar sitio web</string>
     <string name="sitioinfo1">Dirección web</string>
@@ -124,20 +116,20 @@
     <string name="sitioinfo3">Descripción</string>
 
 
-    <string name="carga1">Cargando Guias turisticos</string>
-    <string name="carga2">Cargando Sitios turisticos</string>
-    <string name="carga3">Cargando Enlaces de interes</string>
+    <string name="carga1">Cargando guias turísticos</string>
+    <string name="carga2">Cargando sitios turísticos</string>
+    <string name="carga3">Cargando enlaces de interés</string>
 
 
     <string name="guiainfo1">Número de teléfono</string>
     <string name="guiainfo2">Correo electrónico</string>
     <string name="guiainfo3">Datos básicos</string>
 
-    <string name="cardguias">Guias Turisticos en el municipio</string>
+    <string name="cardguias">Guías turísticos en el municipio</string>
     <string name="cardaves">Listado de Aves </string>
-    <string name="cardturistico">Sitios Turisticos en el municipio </string>
-    <string name="cardintereses">Páginas WEB de Interes </string>
-    <string name="cardrecom">Recomendaciones Generales </string>
+    <string name="cardturistico">Sitios turísticos en el municipio </string>
+    <string name="cardintereses">Páginas WEB de Interés </string>
+    <string name="cardrecom">Recomendaciones generales </string>
 
 
     <string name="asunto_mail_turismo">Contacto Aves de Jardín</string>
@@ -153,18 +145,17 @@
     <string name="confirmar_permiso">Es necesario habilitar los permisos para completar la acción.</string>
     <string name="permiso_si">Permisos concedidos.</string>
     <string name="permiso_no">Permisos denegados.</string>
-    <string name="no_conexion">Esta informacion no esta disponible sin conexion a internet</string>
-    <string name="no_mail">Debe tener una direccion de destino</string>
-    <string name="no_tele">Debe tener un numero telefonico de destino</string>
+    <string name="no_conexion">Esta información no está disponible sin conexión a internet</string>
+    <string name="no_mail">Debe tener una dirección de destino</string>
+    <string name="no_tele">Debe tener un número telefónico de destino</string>
 
     <string name="no_calificar">Sólo puede calificar una vez:</string>
-    <string name="titulo_califica">Ayúdanos a mejorar</string>
-    <string name="titulo_Califica">Califica</string>
+    <string name="titulo_califica_guia">Califica este guía</string>
+    <string name="titulo_califica_sitio">Califica este sitio</string>
+    <string name="titulo_Califica">Calificar</string>
 
-
-
-    <string name="filtroa">Se encontraron: </string>
-    <string name="filtrob"> Aves</string>
+    <string name="filtroa">Aves encontradas:</string>
+    <string name="filtrob">Aves</string>
 
 
     <string-array name="FormaAve">
@@ -183,21 +174,20 @@
     <string-array name="FormaPico">
         <item>  Todos </item>
         <item>  Rapaz </item>
-        <item>  Nectivoro </item>
+        <item>  Nectívoro </item>
         <item>  Multiusos </item>
         <item>  Semillero </item>
-        <item>  Frugivoro </item>
+        <item>  Frugívoro </item>
         <item>  Barbudo </item>
-        <item>  Insectivoro </item>
+        <item>  Insectívoro </item>
         <item>  Generalista </item>
-        <item>  Oropendola </item>
+        <item>  Oropéndola </item>
     </string-array>
 
     <string-array name="ColorPrincipal">
         <item>  Todos </item>
         <item>  Amarillo </item>
         <item>  Azul </item>
-        <item>  Beige </item>
         <item>  Blanco </item>
         <item>  Café </item>
         <item>  Dorado </item>
@@ -205,21 +195,16 @@
         <item>  Morado </item>
         <item>  Naranja </item>
         <item>  Negro </item>
-        <item>  Oliva </item>
         <item>  Pardo </item>
         <item>  Rojo </item>
-        <item>  Rosado </item>
         <item>  Rufo </item>
-        <item>  Turquesa </item>
         <item>  Verde </item>
-        <item>  Violeta </item>
     </string-array>
 
     <string-array name="ColorSecundario">
         <item>  Todos </item>
         <item>  Amarillo </item>
         <item>  Azul </item>
-        <item>  Beige </item>
         <item>  Blanco </item>
         <item>  Café </item>
         <item>  Dorado </item>
@@ -227,33 +212,29 @@
         <item>  Morado </item>
         <item>  Naranja </item>
         <item>  Negro </item>
-        <item>  Oliva </item>
         <item>  Pardo </item>
         <item>  Rojo </item>
-        <item>  Rosado </item>
         <item>  Rufo </item>
-        <item>  Turquesa </item>
         <item>  Verde </item>
-        <item>  Violeta </item>
     </string-array>
 
     <string-array name="sitios_array">
         <item>Filtrar por tipo de sitio</item>
         <item>Restaurantes</item>
-        <item>Hoteles</item>
+        <item>Hoteles y hostales</item>
         <item>Gasolineras</item>
-        <item>Educación</item>
+        <item>Zona escolar</item>
         <item>Bares</item>
         <item>Sitios históricos</item>
         <item>Sitios ecoturísticos</item>
         <item>Compras</item>
-        <item>Religión</item>
+        <item>Sitio de interés religioso</item>
         <item>Zona WiFi</item>
         <item>Deportes</item>
         <item>Centros de salud</item>
         <item>Transporte público</item>
         <item>Resguardo indígena</item>
-        <item>Bancos, cajeros</item>
+        <item>Zona bancaria</item>
         <item>Mostrar todos</item>
 
     </string-array>
@@ -265,208 +246,291 @@
 
     <string name="avistamiento1">*** Avistada ***</string>
     <string name="avistamiento3">Avistada</string>
-    <string name="avistamiento2">Ha sido habistada</string>
+    <string name="avistamiento2">Ha sido avistada</string>
 
-    <string name="d1"> Muy bocal y poco común de observar</string>
-    <string name="d2"> Relacionado a fuentes hídricas debido a su principal alimento (peces)</string>
-    <string name="d3"> Abundante y fácil de encontrar en potreros</string>
+    <string name="d1">Tímido y común en arbustos cernanos al suelo</string>
+    <string name="d2">Relacionado a fuentes hídricas debido a su principal alimento (peces)</string>
+    <string name="d3">Abundante y fácil de encontrar en potreros</string>
     <string name="d4">Solitaria y común en las orillas de fuentes hídricas</string>
-    <string name="d5">distinguida por su bonito plumaje y tranquilidad</string>
+    <string name="d5">Distinguida por su bonito plumaje y tranquilidad</string>
     <string name="d6">Su pico le facilita alimentarse en humedales</string>
     <string name="d7">Migratorio poco frecuente en la zona</string>
-    <string name="d8">Un tímido habitante de los ríos torrentosos</string>
-    <string name="d9">Su olfato le permite ubicar su alimento fácilmente</string>
-    <string name="d10">Un común carroñero y  buen planeador</string>
-    <string name="d11">Excelente pescadora debido a su agilidad y garras poderosas</string>
-    <string name="d12">Migratorio casual pero llamativo por su vistosa cola</string>
-    <string name="d13">Un tímido cazador principalmente al interior del bosque</string>
-    <string name="d14">Llamativo por su dominio del vuelo y tranquilidad a la espera de su alimento</string>
-    <string name="d15">Rapaz pequeño y escurridizo para lograr su caza</string>
-    <string name="d16">Común en zonas despejadas a la espera de su presa</string>
-    <string name="d17">Veloz y ágil a la hora de cazar y en vuelo se reconoce fácil por su cola en forma de pincel</string>
-    <string name="d18">Migratorio fácil de observar a la orilla de los boques</string>
-    <string name="d19">Frecuentemente visto sobrevolando en zonas abiertas y fácil de identificar por su corta cola</string>
-    <string name="d20">Territorial y común en perchas en las partes altas de el follaje</string>
-    <string name="d21">Habitante poco común de las zonas montañosas</string>
-    <string name="d22">Imponente y poderosa cazadora de los bosques andinos</string>
-    <string name="d23">su caza se da frecuentemente en el suelo ya que en el aire es muy lento</string>
-    <string name="d24">Frecuente en carreteras a la caza de serpientes entre otras</string>
-    <string name="d25">Cazador de serpientes por excelencia y admirado por sus características faciales</string>
-    <string name="d26">Aunque pequeño es agresivo a la hora de defender su territorio incluso con aves de mayor tamaño</string>
-    <string name="d27">Endémica y común en zonas cultivadas con musáceas</string>
-    <string name="d28">Llama la atención por el sonido hecho por sus alas</string>
-    <string name="d29">Endémico habitante de la montaña y aunque no fácil de ver es fácil de escuchar</string>
-    <string name="d30">La mayor parte del tiempo se camufla entre la vegetación densa</string>
-    <string name="d31">Su hábitat son las zonas abiertas además de defender su territorio en todo momento</string>
-    <string name="d32">Un poco común en los humedales relacionados con los bosques de niebla</string>
-    <string name="d33">Habita el bosque de niebla mayormente observada en bandadas de su propia especie</string>
-    <string name="d34">Paloma que habita en clima templado y frecuenta cebaderos</string>
-    <string name="d35">Una pequeña paloma caminera bastante común en zonas urbanas</string>
-    <string name="d36">Paloma de tamaño medio y de fácil observación en zonas urbanas</string>
-    <string name="d37">Común en bosques abiertos y se reconoce por su vocalización cada 30 segundos aproximadamente</string>
-    <string name="d38">Una caminera de los bosques subtropicales y vuela ocasionalmente ante la amenaza o cambio de alimentadero</string>
-    <string name="d39">Mayormente en grupos grandes de su propia especie muy común en bosques templados y muy llamativas por su actividad vocal</string>
-    <string name="d40">Endémico muy local asociado con la palma de cera vuela en grupo y recorren largas distancias en busca de alimento</string>
-    <string name="d41">Común en zonas urbanas siempre en pequeños grupos y relacionados con las leguminosas</string>
-    <string name="d42">Habita en los bosques de niebla y no es muy común ya que recorre largas distancias en grupos pequeños entre el bosque</string>
-    <string name="d43">Una común de tierras bajas asociada con cultivos de maíz</string>
-    <string name="d44">Recibe su nombre por su agilidad entre las ramas de los arboles y habita en un amplio rango entre tierras cálidas y templadas</string>
-    <string name="d45">Común en zonas arbustivas y en grupos familiares</string>
-    <string name="d46">Común en los campanarios o estructuras abandonadas donde puede encontrar tranquilidad para su reproducción</string>
-    <string name="d47">El mas común en áreas urbanas y se reconoce fácilmente por su vocalización</string>
-    <string name="d48">Asociado a los helechos gigantes de hábitos nocturnos y poco común</string>
-    <string name="d49">Pequeño y poco común en bordes de bosques de niebla además de ser semidiurno</string>
-    <string name="d50">De hábitos nocturnos y su plumaje le permite camuflarse con las ramas de los arboles y se le puede enconchar en perchas despejadas durante el día</string>
-    <string name="d51">Común y muy vocal se le puede observar en caminos o carreteras en las horas de la noche</string>
-    <string name="d52">Común en bordes de bosque y carreteras de hábitos nocturnos</string>
-    <string name="d53">Ave  que percha en barrancos y carreteras para alimentarse en la noche y su caracteriza mas llamativa es su larga cola</string>
-    <string name="d54">Siempre asociadas entre especies del mismo genero y muy activas cuando se levantan las nubes de mosquitos de los cuales se alimentan</string>
-    <string name="d55">Siempre asociadas entre especies del mismo genero y muy activas cuando se levantan las nubes de mosquitos de los cuales se alimentan</string>
-    <string name="d56">Se alimenta principalmente de heliconias ya que la mayoría se adaptan a la forma de su pico</string>
-    <string name="d57">Se alimenta principalmente de heliconias ya que la mayoría se adaptan a la forma de su pico</string>
-    <string name="d58">Asociado con torrentes acuosos y perchado sobre rocas</string>
-    <string name="d59">Tímido pero común en bosques subtropicales</string>
-    <string name="d60">Común y muy territorial en áreas abiertas de tierras templadas</string>
-    <string name="d61">Abundante y muy territorial en zonas boscosas y bordes de áreas urbanas</string>
-    <string name="d62">Poco común y tímido reconocido mayormente por su color pardo</string>
-    <string name="d63">Frecuente y abundante en áreas pobladas de clima templado y cálido</string>
-    <string name="d64">Las iridiscencias de su plumaje lo hacen muy llamativo a pesar de su pequeño tamaño</string>
-    <string name="d65">Local y muy común se reconoce fácilmente por su pecho blanco y su frente azul</string>
-    <string name="d66">Un común de los jardines y plantaciones de flores en lugares abiertos</string>
-    <string name="d67">Un común de los jardines y plantaciones de flores en lugares abiertos</string>
-    <string name="d68">Común en clima frio aprovechando jardines pequeñas flores</string>
-    <string name="d69">Habita el bosque húmedo de montaña y se reconoce por la garganta rosada presente en los machos</string>
-    <string name="d70">Su larga cola y colores brillantes lo hacen uno de los mas llamativos</string>
-    <string name="d71">Como su nombre lo dice se alimenta de murciélagos además de insectos y pequeñas aves</string>
-    <string name="d72">Fácil de identificar por su pico curvo en bosques de niebla</string>
-    <string name="d73">Su pico largo y recto además de su coloración café hacen fácil su identificación</string>
-    <string name="d74">Habita entre climas altos y templados del pacifico y el Paramillo</string>
-    <string name="d75">Carpintero común, se puede confundir con Colaptes rubiginusus</string>
-    <string name="d76">El mas común en su genero y aun así muy llamativo por sus tonos oscuros y garganta blanca</string>
-    <string name="d77">Su gran pico le otorga el nombre ya que este es mas largo que el resto de su cuerpo</string>
-    <string name="d78">Se distingue fácilmente porque abre su alas al aterrizar y es muy agresivo a la hora de defender su territorio</string>
-    <string name="d79">Casi endémico y llamativo por su variable coloración</string>
-    <string name="d80">Común en bosque de niebla y muy activo en bordes de carretera</string>
-    <string name="d81">Es común entre temporadas y migrante altitudinal</string>
-    <string name="d82">Común en bosques subtropicales que se reconoce por sus botas blancas</string>
-    <string name="d83">Llama la atención por su pequeño tamaño y cola en forma de raqueta además de sus botas</string>
-    <string name="d84">No muy común y fácil de identificar por su color purpura a lo largo de su espalda</string>
-    <string name="d85">Se alimenta de pequeñas flores y suele libar perchado se puede reconocer por su cola rufa</string>
-    <string name="d86">Su larga cola azul llaman la atención en todo momento, común a lo largo de los andes</string>
-    <string name="d87">Su larga cola purpura llaman la atención en todo momento y su distribución se acentúa en la vertiente occidental de la misma cordillera</string>
-    <string name="d88">Un poco común de zonas con clima templado y fácil de reconocer por sus tonos claros y garganta purpura</string>
-    <string name="d89">Habita zonas más bajas que Chaetocercus mulsant</string>
-    <string name="d90">Fácil de identificar por su vuelo horizontal y aleteo zumbador</string>
-    <string name="d91">Común y muy buscado en los Andes por su colorido plumaje</string>
-    <string name="d92">Común en bosques subtropicales y activo en bordes de carretera</string>
-    <string name="d93">Común en bosques subtropicales y activo en bordes de carretera</string>
-    <string name="d94">Habita en lagunas y ríos grandes, tímido y muy activo vocalmente</string>
-    <string name="d95">Migratoria común pero no muy fácil de ubicar ya que por lo general busca perchas que le permiten lograr un buen camuflaje</string>
-    <string name="d96">Común en pequeños ríos y lagunas de tierras templadas</string>
-    <string name="d97">Muy común y llamativo por su elegancia y tranquilidad</string>
-    <string name="d98">Muy vocal y solitario habitante del subtropical, se le puede observar también el pareja</string>
-    <string name="d99">Poco común, impredecible y habitante de bosques húmedos</string>
-    <string name="d100">Común en arbustos, su colorido es muy llamativo y se le relaciona con bandadas mixtas</string>
-    <string name="d101">Muy común y tranquilo. Su movimiento se da en pareja o grupos pequeños</string>
-    <string name="d102">Común en bosques de clima templado y llamativo por la coloración rojiza de su pico</string>
-    <string name="d103">Poco común y local principalmente en bosques de niebla y llamativo por su fuerte vocalización</string>
-    <string name="d104">Poco común, habita en tierras bajas y se encuentra normalmente en pequeñas plantas del bosque seco</string>
-    <string name="d105">Común en zonas montañosas y su dorso rojo lo hace fácil de identificar</string>
-    <string name="d106">Común en hábitat semiabiertos que se relaciona con bandadas mixtas</string>
-    <string name="d107">Este carpintero llama la atención por la fuerza con la que picotea los arboles además de su vistoso copete rojo</string>
-    <string name="d108">Común y mas conocido por el plumaje de su cara como "carpintero payaso"</string>
-    <string name="d109">Muy común en áreas abiertas de clima templado</string>
-    <string name="d110">Común en bosques húmedos, relacionado con bandadas mixtas</string>
-    <string name="d111">Común en bosques húmedos, relacionado con bandadas mixtas</string>
-    <string name="d112">Común pero solitario del bosque, uno de los mas grandes y poderoso de tierras altas</string>
-    <string name="d113">Trepatroncos poco común, tamaño medio</string>
-    <string name="d114">Trepatroncos poco común, grande, más común hacia la cordillera occidental</string>
-    <string name="d115">Común en zonas cálidas</string>
-    <string name="d116">El más común en climas frio</string>
-    <string name="d117">Trepatroncos poco común, pico curvo muy distintivo</string>
-    <string name="d118">Chamicero muy común  y bocal</string>
-    <string name="d119">Chamicero de altura, menos vocal que otro chamiceros</string>
-    <string name="d120">Chamicero muy común  y bocal</string>
-    <string name="d121">Chamicero de altura, menos común y difícil de observar </string>
-    <string name="d122">Chamicero común, casi siempre en parejas </string>
-    <string name="d123">Hermoso trepatroncos, diseño perlado en su plumaje, común</string>
-    <string name="d124">Algo común acompañando bandada mixtas, difícil de observar</string>
-    <string name="d125">Hermoso trepatroncos, acompañando bandadas mixtas</string>
-    <string name="d126">Acompaña bandadas mixtas</string>
-    <string name="d127">Hermoso corretroncos, llamativo diseño de plumaje</string>
-    <string name="d128">Pequeño trepatroncos, su pico tiene la apariencia de estar curvado un poco hacia arriba</string>
-    <string name="d129">Tordo que recientemente viene colonizando tierras altas, mas común en áreas bajas y planicies</string>
-    <string name="d130">Común en clima templado y muy vocal. Llamativo por su plumaje barrado</string>
-    <string name="d131">Común en bosques secundarios y relacionado con bandadas mixtas</string>
-    <string name="d132">Común, endémico y poco colorido. No relacionado con otras especies</string>
-    <string name="d133">Común, su hábitat principalmente se da en lugares donde se da el Chusque</string>
-    <string name="d134">Poco común y registrado usualmente por su vocalización</string>
-    <string name="d135">Común en la densa vegetación, lo que dificulta su observación</string>
-    <string name="d136">Muy local en el bosque de niebla y difícil de observar</string>
-    <string name="d137">Común y sociable en el sotobosque</string>
-    <string name="d138">Muy vocal y difícil de observar</string>
-    <string name="d139">Común pero difícil de observar al igual que la mayoría de especies de esta familia</string>
-    <string name="d140">Común pero difícil de observar al igual que la mayoría de especies de esta familia</string>
-    <string name="d141">Común pero difícil de observar al igual que la mayoría de especies de esta familia. Se diferencia de los demás por su plumaje único</string>
-    <string name="d142">Común y deslumbrante por el cortejo que reúne una gran cantidad de sus machos</string>
-    <string name="d143">Común en zonas montañosas de los Andes</string>
-    <string name="d144">Impredecible y poco común en los bosques de subtropical</string>
-    <string name="d145">Común y fácil de observar con bandadas mixtas</string>
-    <string name="d146">Poco común y asociado con especies del mismo genero</string>
-    <string name="d147">Solitario y poco común del bosque subtropical</string>
-    <string name="d148">Común y relacionado con bandadas mixtas</string>
-    <string name="d149">Común en tierras templadas y relacionado con bandadas mixtas</string>
-    <string name="d150">Poco común que habita en los Andes y se ve a menudo con bandadas mixtas en las zonas montañosas</string>
-    <string name="d151">Común y fácil de observar en las copas de los arboles</string>
-    <string name="d152">Común en arbustos y arboles de poco follaje en el clima templado</string>
-    <string name="d153">Común y fácil de observar en jardines y solitaria</string>
-    <string name="d154">Muy común y siempre relacionada con bandadas mixtas en bordes de caminos y carreteras</string>
-    <string name="d155">Migratoria común que se observa bajo el dosel</string>
-    <string name="d156">Común en áreas montañosas , a menudo con bandadas mixtas</string>
-    <string name="d157">Siempre en áreas abiertas, muy relacionada con el ganado</string>
-    <string name="d158">Común en arbustos de clima frio, asociado a bandadas mixtas</string>
-    <string name="d159">Común cerca o en arroyos como lo indica su nombre</string>
-    <string name="d160">Común y a menudo relacionado con bandadas mixtas</string>
-    <string name="d161">Común y tranquilo asociado con bandadas mixtas</string>
-    <string name="d162">Común pero poco visible en  y asociado con bandadas mixtas</string>
-    <string name="d163">Común y difícil de observar ya que la mayoría de las veces se encuentra en las copas de los arboles</string>
-    <string name="d164">Común, de percha baja y relacionado con bandadas mixtas</string>
-    <string name="d165">Común en el bajo dosel y solitario del bosque subtropical</string>
-    <string name="d166">Común pero tímido, lo que lo hace difícil de observar</string>
-    <string name="d167">Poco común y relacionado con el bajo dosel y la vegetación densa</string>
-    <string name="d168">Común y fácil de observar en zonas templadas</string>
+    <string name="d8">Su olfato le permite ubicar su alimento fácilmente</string>
+    <string name="d9">Un común carroñero y  buen planeador</string>
+    <string name="d10">Excelente pescadora debido a su agilidad y garras poderosas</string>
+    <string name="d11">Migratorio casual pero llamativo por su vistosa cola</string>
+    <string name="d12">Un tímido cazador principalmente al interior del bosque</string>
+    <string name="d13">Llamativo por su dominio del vuelo y tranquilidad a la espera de su alimento</string>
+    <string name="d14">Rapaz pequeño y escurridizo para lograr su caza</string>
+    <string name="d15">Común en zonas despejadas a la espera de su presa</string>
+    <string name="d16">Veloz y ágil a la hora de cazar y en vuelo se reconoce fácil por su cola en forma de pincel</string>
+    <string name="d17">Migratorio fácil de observar a la orilla de los boques</string>
+    <string name="d18">Frecuentemente visto sobrevolando en zonas abiertas y fácil de identificar por su corta cola</string>
+    <string name="d19">Territorial y común en perchas en las partes altas de el follaje</string>
+    <string name="d20">Habitante poco común de las zonas montañosas</string>
+    <string name="d21">Imponente y poderosa cazadora de los bosques andinos</string>
+    <string name="d22">Su caza se da frecuentemente en el suelo ya que en el aire es muy lento</string>
+    <string name="d23">Frecuente en carreteras a la caza de serpientes entre otras</string>
+    <string name="d24">Cazador de serpientes por excelencia y admirado por sus características faciales</string>
+    <string name="d25">Aunque pequeño es agresivo a la hora de defender su territorio incluso con aves de mayor tamaño</string>
+    <string name="d26">Endémica y común en zonas cultivadas con musáceas</string>
+    <string name="d27">Llama la atención por el sonido hecho por sus alas</string>
+    <string name="d28">La mayor parte del tiempo se camufla entre la vegetación densa</string>
+    <string name="d29">Su hábitat son las zonas abiertas además de defender su territorio en todo momento</string>
+    <string name="d30">Un poco común en los humedales relacionados con los bosques de niebla</string>
+    <string name="d31">Habita el bosque de niebla mayormente observada en bandadas de su propia especie</string>
+    <string name="d32">Paloma que habita en clima templado y frecuenta cebaderos</string>
+    <string name="d33">Una pequeña paloma caminera bastante común en zonas urbanas</string>
+    <string name="d34">Paloma de tamaño medio y de fácil observación en zonas urbanas</string>
+    <string name="d35">Común en bosques abiertos y se reconoce por su vocalización cada 30 segundos aproximadamente</string>
+    <string name="d36">Mayormente en grupos grandes de su propia especie muy común en bosques templados y muy llamativas por su actividad vocal</string>
+    <string name="d37">Endémico muy local asociado con la palma de cera vuela en grupo y recorren largas distancias en busca de alimento</string>
+    <string name="d38">Común en zonas urbanas siempre en pequeños grupos y relacionados con las leguminosas</string>
+    <string name="d39">Habita en los bosques de niebla y no es muy común ya que recorre largas distancias en grupos pequeños entre el bosque</string>
+    <string name="d40">Una común de tierras bajas asociada con cultivos de maíz</string>
+    <string name="d41">Recibe su nombre por su agilidad entre las ramas de los arboles y habita en un amplio rango entre tierras cálidas y templadas</string>
+    <string name="d42">Común en zonas arbustivas y en grupos familiares</string>
+    <string name="d43">Común en los campanarios o estructuras abandonadas donde puede encontrar tranquilidad para su reproducción</string>
+    <string name="d44">El mas común en áreas urbanas y se reconoce fácilmente por su vocalización</string>
+    <string name="d45">Asociado a los helechos gigantes de hábitos nocturnos y poco común</string>
+    <string name="d46">Pequeño y poco común en bordes de bosques de niebla además de ser semidiurno</string>
+    <string name="d47">De hábitos nocturnos y su plumaje le permite camuflarse con las ramas de los arboles y se le puede enconchar en perchas despejadas durante el día</string>
+    <string name="d48">Común y muy vocal se le puede observar en caminos o carreteras en las horas de la noche</string>
+    <string name="d49">Común en bordes de bosque y carreteras de hábitos nocturnos</string>
+    <string name="d50">Ave  que percha en barrancos y carreteras para alimentarse en la noche y su caracteriza mas llamativa es su larga cola</string>
+    <string name="d51">Siempre asociadas entre especies del mismo genero y muy activas cuando se levantan las nubes de mosquitos de los cuales se alimentan</string>
+    <string name="d52">Siempre asociadas entre especies del mismo genero y muy activas cuando se levantan las nubes de mosquitos de los cuales se alimentan</string>
+    <string name="d53">Se alimenta principalmente de heliconias ya que la mayoría se adaptan a la forma de su pico</string>
+    <string name="d54">Común y muy vocal en zonas abiertas</string>
+    <string name="d55">Asociado con torrentes acuosos y perchado sobre rocas</string>
+    <string name="d56">Tímido pero común en bosques subtropicales</string>
+    <string name="d57">Común y muy territorial en áreas abiertas de tierras templadas</string>
+    <string name="d58">Abundante y muy territorial en zonas boscosas y bordes de áreas urbanas</string>
+    <string name="d59">Poco común y tímido reconocido mayormente por su color pardo</string>
+    <string name="d60">Frecuente y abundante en áreas pobladas de clima templado y cálido</string>
+    <string name="d61">Las iridiscencias de su plumaje lo hacen muy llamativo a pesar de su pequeño tamaño</string>
+    <string name="d62">Local y muy común se reconoce fácilmente por su pecho blanco y su frente azul</string>
+    <string name="d63">Un común de los jardines y plantaciones de flores en lugares abiertos</string>
+    <string name="d64">Un común de los jardines y plantaciones de flores en lugares abiertos</string>
+    <string name="d65">Común en clima frio aprovechando jardines pequeñas flores</string>
+    <string name="d66">Habita el bosque húmedo de montaña y se reconoce por la garganta rosada presente en los machos</string>
+    <string name="d67">Su larga cola y colores brillantes lo hacen uno de los mas llamativos</string>
+    <string name="d68">Como su nombre lo dice se alimenta de murciélagos además de insectos y pequeñas aves</string>
+    <string name="d69">Fácil de identificar por su pico curvo en bosques de niebla</string>
+    <string name="d70">Su pico largo y recto además de su coloración café hacen fácil su identificación</string>
+    <string name="d71">Habita entre climas altos y templados del pacifico y el Paramillo</string>
+    <string name="d72">Carpintero común, se puede confundir con Colaptes rubiginusus</string>
+    <string name="d73">El mas común en su genero y aun así muy llamativo por sus tonos oscuros y garganta blanca</string>
+    <string name="d74">Su gran pico le otorga el nombre ya que este es mas largo que el resto de su cuerpo</string>
+    <string name="d75">Se distingue fácilmente porque abre su alas al aterrizar y es muy agresivo a la hora de defender su territorio</string>
+    <string name="d76">Casi endémico y llamativo por su variable coloración</string>
+    <string name="d77">Común en bosque de niebla y muy activo en bordes de carretera</string>
+    <string name="d78">Es común entre temporadas y migrante altitudinal</string>
+    <string name="d79">Común en bosques subtropicales que se reconoce por sus botas blancas</string>
+    <string name="d80">Llama la atención por su pequeño tamaño y cola en forma de raqueta además de sus botas</string>
+    <string name="d81">Común y frecuente en jardines y bosques de galeria</string>
+    <string name="d82">Se alimenta de pequeñas flores y suele libar perchado se puede reconocer por su cola rufa</string>
+    <string name="d83">Su larga cola azul llaman la atención en todo momento, común a lo largo de los andes</string>
+    <string name="d84">Su larga cola purpura llaman la atención en todo momento y su distribución se acentúa en la vertiente occidental de la misma cordillera</string>
+    <string name="d85">Un poco común de zonas con clima templado y fácil de reconocer por sus tonos claros y garganta purpura</string>
+    <string name="d86">Habita zonas más bajas que Chaetocercus mulsant</string>
+    <string name="d87">Fácil de identificar por su vuelo horizontal y aleteo zumbador</string>
+    <string name="d88">Común y muy buscado en los Andes por su colorido plumaje</string>
+    <string name="d89">Común en bosques subtropicales y activo en bordes de carretera</string>
+    <string name="d90">Habita en lagunas y ríos grandes, tímido y muy activo vocalmente</string>
+    <string name="d91">Migratoria común pero no muy fácil de ubicar ya que por lo general busca perchas que le permiten lograr un buen camuflaje</string>
+    <string name="d92">Común en pequeños ríos y lagunas de tierras templadas</string>
+    <string name="d93">Muy común y llamativo por su elegancia y tranquilidad</string>
+    <string name="d94">Muy vocal y solitario habitante del subtropical, se le puede observar también el pareja</string>
+    <string name="d95">Poco común, impredecible y habitante de bosques húmedos</string>
+    <string name="d96">Común en arbustos, su colorido es muy llamativo y se le relaciona con bandadas mixtas</string>
+    <string name="d97">Muy común y tranquilo. Su movimiento se da en pareja o grupos pequeños</string>
+    <string name="d98">Común en bosques de clima templado y llamativo por la coloración rojiza de su pico</string>
+    <string name="d99">Poco común y local principalmente en bosques de niebla y llamativo por su fuerte vocalización</string>
+    <string name="d100">Poco común, habita en tierras bajas y se encuentra normalmente en pequeñas plantas del bosque seco</string>
+    <string name="d101">Común en zonas montañosas y su dorso rojo lo hace fácil de identificar</string>
+    <string name="d102">Común en hábitat semiabiertos que se relaciona con bandadas mixtas</string>
+    <string name="d103">Este carpintero llama la atención por la fuerza con la que picotea los arboles además de su vistoso copete rojo</string>
+    <string name="d104">Común y mas conocido por el plumaje de su cara como "carpintero payaso"</string>
+    <string name="d105">Muy común en áreas abiertas de clima templado</string>
+    <string name="d106">Común en bosques húmedos, relacionado con bandadas mixtas</string>
+    <string name="d107">Común en bosques húmedos, relacionado con bandadas mixtas</string>
+    <string name="d108">Común pero solitario del bosque, uno de los mas grandes y poderoso de tierras altas</string>
+    <string name="d109">Trepatroncos poco común, tamaño medio</string>
+    <string name="d110">Migratorio común en bosque de galeria y jardines</string>
+    <string name="d111">Común en zonas cálidas</string>
+    <string name="d112">El más común en climas frio</string>
+    <string name="d113">Trepatroncos poco común, pico curvo muy distintivo</string>
+    <string name="d114">Chamicero muy común  y bocal</string>
+    <string name="d115">Común y asociada permanentemente a fuentes acuosas</string>
+    <string name="d116">Chamicero muy común  y bocal</string>
+    <string name="d117">Común en bosques de galeria y zona urbanas </string>
+    <string name="d118">Chamicero común, casi siempre en parejas </string>
+    <string name="d119">Hermoso trepatroncos, diseño perlado en su plumaje, común</string>
+    <string name="d120">Común sobretodo en zonas urbanas y areas abiertas</string>
+    <string name="d121">Hermoso trepatroncos, acompañando bandadas mixtas</string>
+    <string name="d122">Acompaña bandadas mixtas</string>
+    <string name="d123">Hermoso corretroncos, llamativo diseño de plumaje</string>
+    <string name="d124">Pequeño trepatroncos, su pico tiene la apariencia de estar curvado un poco hacia arriba</string>
+    <string name="d125">Tordo que recientemente viene colonizando tierras altas, mas común en áreas bajas y planicies</string>
+    <string name="d126">Común en clima templado y muy vocal. Llamativo por su plumaje barrado</string>
+    <string name="d127">Común en bosques secundarios y relacionado con bandadas mixtas</string>
+    <string name="d128">Común y frecuentemente con bandadas mixtas en los bordes de bosque humedo</string>
+    <string name="d129">Común, su hábitat principalmente se da en lugares donde se da el Chusque</string>
+    <string name="d130">Migratorio común, frecuentemente en areas abiertas</string>
+    <string name="d131">Común en la densa vegetación, lo que dificulta su observación</string>
+    <string name="d132">Muy local en el bosque de niebla y difícil de observar</string>
+    <string name="d133">Común y sociable en el sotobosque</string>
+    <string name="d134">Muy vocal y difícil de observar</string>
+    <string name="d135">Común en pastizales y areas abiertas</string>
+    <string name="d136">Común y a menudo visto en movimiento con bandadas mixtas</string>
+    <string name="d137">Común pero difícil de observar al igual que la mayoría de especies de esta familia. Se diferencia de los demás por su plumaje único</string>
+    <string name="d138">Común y deslumbrante por el cortejo que reúne una gran cantidad de sus machos</string>
+    <string name="d139">Común en zonas montañosas de los Andes</string>
+    <string name="d140">Impredecible y poco común en los bosques de subtropical</string>
+    <string name="d141">Común y fácil de observar con bandadas mixtas</string>
+    <string name="d142">Poco común y asociado con especies del mismo genero</string>
+    <string name="d143">Solitario y poco común del bosque subtropical</string>
+    <string name="d144">Común y relacionado con bandadas mixtas</string>
+    <string name="d145">Común en tierras templadas y relacionado con bandadas mixtas</string>
+    <string name="d146">Poco común que habita en los Andes y se ve a menudo con bandadas mixtas en las zonas montañosas</string>
+    <string name="d147">Común y fácil de observar en las copas de los arboles</string>
+    <string name="d148">Común en arbustos y arboles de poco follaje en el clima templado</string>
+    <string name="d149">Común y fácil de observar en jardines y solitaria</string>
+    <string name="d150">Muy común y siempre relacionada con bandadas mixtas en bordes de caminos y carreteras</string>
+    <string name="d151">Migratoria común que se observa bajo el dosel</string>
+    <string name="d152">Común en áreas montañosas , a menudo con bandadas mixtas</string>
+    <string name="d153">Siempre en áreas abiertas, muy relacionada con el ganado</string>
+    <string name="d154">Común en arbustos de clima frio, asociado a bandadas mixtas</string>
+    <string name="d155">Común cerca o en arroyos como lo indica su nombre</string>
+    <string name="d156">Común y tranquilo asociado con bandadas mixtas</string>
+    <string name="d157">Común pero poco visible en  y asociado con bandadas mixtas</string>
+    <string name="d158">Común y difícil de observar ya que la mayoría de las veces se encuentra en las copas de los arboles</string>
+    <string name="d159">Común, de percha baja y relacionado con bandadas mixtas</string>
+    <string name="d160">Común en el bajo dosel y solitario del bosque subtropical</string>
+    <string name="d161">Común pero tímido, lo que lo hace difícil de observar</string>
+    <string name="d162">Común y fácil de observar en zonas templadas</string>
+    <string name="d163">Común, a menudo con bandadas mixtas</string>
+    <string name="d164">Común en el sotobosque y asociado con bandadas mixtas</string>
+    <string name="d165">Común en zonas abiertas y presente en pequeños arbustos</string>
+    <string name="d166">Común y muy llamativo por su coloración canela</string>
+    <string name="d167">Común y solitario de bosque subtropical</string>
+    <string name="d168">Muy común y asociado a fuentes hídricas</string>
+    <string name="d169">Común, habita en zonas montañosas y asociado con el Chusque</string>
+    <string name="d170">Común, se asocia con pequeños riachuelos</string>
+    <string name="d171">Común, se mueve entre el dosel y se asocia con bandadas mixtas</string>
+    <string name="d172">Común en áreas abiertas, se percha con frecuencia en alambres altos</string>
+    <string name="d173">Común hacia el interior de los bosques. Muy silencioso</string>
+    <string name="d174">Común, se le observa a menudo con bandadas mixtas</string>
+    <string name="d175">Común, se le observa a menudo en zonas urbanas de clima templado</string>
+    <string name="d176">Muy activo vocalmente, habita en zonas templadas y abiertas</string>
+    <string name="d177">Atrapamoscas muy bocal</string>
+    <string name="d178">A menudo muy vocal y común en clima templado</string>
+    <string name="d179">Se le ve a menudo cerca de fuentes artificiales de luz ya que estas atraen una gran variedad de insectos para su alimentación</string>
+    <string name="d180">Muy común en áreas abiertas, Percha alto principalmente en redes de luz</string>
+    <string name="d181">Muy común y relacionada con especies de su misma familia</string>
+    <string name="d182">Muy común y relacionada con especies de su misma familia</string>
+    <string name="d183">Común en zonas boscosas y mayormente en grupos de su misma especie</string>
+    <string name="d184">Común en zonas templadas y semiabiertas, muy vocal</string>
+    <string name="d185">Común y colorido de clima templado, asociado con coníferas y mirtáceas</string>
+    <string name="d186">Común y asociado a corrientes acuosas</string>
+    <string name="d187">Común en el sotobosque y muy vocal, asociada a bandadas mixtas</string>
+    <string name="d188">Común en el sotobosque y muy vocal, asociada a bandadas mixtas</string>
+    <string name="d189">Común y oportunista que encuentra su hábitat en las casas</string>
+    <string name="d190">Común en los bajos boscosos, en ocasiones relacionados con bandadas mixtas</string>
+    <string name="d191">Poco común y muy local en los altos bosques occidentales</string>
+    <string name="d192">Común y llamativa por su recurrente vocalización</string>
+    <string name="d193">Común y difícil de observar ya que se ubica mayormente entre la densa vegetación</string>
+    <string name="d194">Común y reconocido por su canto</string>
+    <string name="d195">Común y vocal en zonas montañozas</string>
+    <string name="d196">Un timido pero común migratorio</string>
+    <string name="d197">Muy común en clima frio y facil de observar</string>
+    <string name="d198">Común y muy vocal mas que todo en la madrugada y el atardecer</string>
+    <string name="d199">Muy común y relacionada con zonas urbanas</string>
+    <string name="d200">Común en bosque de galeria y tambien terrestre</string>
+    <string name="d201">Poco común y muy vocal, a menudo percha en las copas de los arboles</string>
+    <string name="d202">Muy común y activo entre el dosely además relacionado con bandadas mixtas</string>
+    <string name="d203">Muy común y conocido por parasitar nidos de otras aves</string>
+    <string name="d204">Frecuentemente visto en percha altas y conocido por parasitar nidos de oropendolas</string>
+    <string name="d205">Conocido tambíen como mochilero por la forma de sus nidos en lugares visibles y a menudo cerca a lugares urbanos</string>
+    <string name="d206">Común en bosques montanos y relacionado con bandadas mixtas</string>
+    <string name="d207">Local y a menudo relacionada con otros icteridos</string>
+    <string name="d208">Poco común, normalmente en bandadas de su propia especie</string>
+    <string name="d209">Común y conocido por la diversidad de sus cantos</string>
+    <string name="d210">Migratoria muy activa y vista frecuentemente buscando su alimento bajo la corteza de los arboles</string>
+    <string name="d211">Migratorio poco común, activo entre la sombra y el bajo dosel</string>
+    <string name="d212">Común y relacionada con bandadas mixtas a menudo en zonas abiertas</string>
+    <string name="d213">Migratoria muy común activa todo el tiempo</string>
+    <string name="d214">Muy común y activo en zonas montañozas</string>
+    <string name="d215">Muy común y activo en zonas montañozas</string>
+    <string name="d216">Común y activa en partes bajas de bosque de niebla y a menudo relacionada con bandadas mixtas</string>
+    <string name="d217">Común en bosques montanos, inquieta y relacionada con bandadas mixtas</string>
+    <string name="d218">Común en bosques montanos y relacionado con bandadas mixtas</string>
+    <string name="d219">Comúny a menudo con bandadas mixtas a media altura</string>
+    <string name="d220">Comúny a menudo con bandadas mixtas a media altura</string>
+    <string name="d221">Común en jardines y lugares florecidos</string>
+    <string name="d222">Local y común en bordes de borque a menudo con bandadas mixtas</string>
+    <string name="d223">Muy común en bosques montanos y relacionada con bandadas mixtas</string>
+    <string name="d224">Muy común en zonas florecidas de bosdes de bosque de niebla</string>
+    <string name="d225">Común y a menudo con bandadas mixtas en lugares florecidos</string>
+    <string name="d226">Poco común. A menudo en las copas de los arboles y relacionada con la suelda "Phoradendron sp."</string>
+    <string name="d227">Común en las copas de los arboles y relacionada con la suelda "Phoradendron sp."</string>
+    <string name="d228">Común, a menudo con bandadas mixtas</string>
+    <string name="d229">Común, a menudo con bandadas mixtas y frecuente en zonas abiertas</string>
+    <string name="d230">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d231">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d232">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d233">Común con bandadas mixtas y a menudo en pareja</string>
+    <string name="d234">Común con bandadas mixtas en bordes de bosque</string>
+    <string name="d235">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d236">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d237">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d238">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d239">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d240">Poco común, frecuente con bandadas mixtas a media altura</string>
+    <string name="d241">Común y a menudo con bandadas mixtas en bordes de bosque montano</string>
+    <string name="d242">Común y local en areas abiertas a menudo salitarias</string>
+    <string name="d243">Común en pareja y a menudo muy activa en bordes del bosque humedo</string>
+    <string name="d244">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d245">Común entre la ramas de los arboles</string>
+    <string name="d246">Común pero timida y habita el sotobosque</string>
+    <string name="d247">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d248">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d249">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d250">Muy común en areas abiertas</string>
+    <string name="d251">Local, Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d252">Migratoria, normalmente en pareja en areas abiertas y bordes de bosque</string>
+    <string name="d253">Migratoria común y visible en zonas abiertas</string>
+    <string name="d254">Migratorio poco frecuente y relacionado con bandadas mixtas</string>
+    <string name="d255">Poco frecuente en bosque montano</string>
+    <string name="d256">Local y relacionada con aguas corrientes o riachuelos</string>
+    <string name="d257">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
+    <string name="d258">Común en zonas abiertas y bosques de galeria</string>
+    <string name="d259">Común en areas abiertas y pocas veces con bandadas mixtas</string>
+    <string name="d260">Poco común y a menudo en pequeñas bandadas de su propia especie además de ser muy activas vocalmente</string>
+    <string name="d261">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d262">Común y local, a menudo con bandas mixtas y relacionada con el chusque</string>
+    <string name="d263">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
+    <string name="d264">Común y frecuentemente con bandadas mixtas en los bordes de bosque humedo</string>
+    <string name="d265">Común en areas abiertas y bosques de galeria</string>
+    <string name="d266">Común en areas abiertas y bosques de galeria</string>
+    <string name="d267">Común en areas abiertas y bosques de galeria</string>
+    <string name="d268">Migratorio común en bosque de galeria</string>
+    <string name="d269">Poco frecuente y local, se le observa a mediana y baja altura</string>
+    <string name="d270">Muy común y activo en pequeños arbustos</string>
+    <string name="d271">Muy común en bordes de bosque montano</string>
+    <string name="d272">Común pero timido, a menudo cerca al suelo</string>
+    <string name="d273">Muy común en areas abiertas y bosque de galeria</string>
+    <string name="d274">Común en areas abiertas y zonas arbustivas</string>
+    <string name="d275">Poco frecuente, a menudo en pastizales y pequeños arbustos</string>
+    <string name="d276">Muy común y a menudo en bandada con especies de su familia</string>
+    <string name="d277">Muy común y a menudo en bandada con especies de su familia</string>
+    <string name="d278">Muy común en todo tipo de lugares montañosos</string>
+    <string name="d279">Común en areas abiertas y pastizales</string>
+    <string name="d280">Local y común en las copas de los arboles</string>
+    <string name="d281">Común en areas abiertas y jardines</string>
+    <string name="d282">Muy común en lugares y parques urbanos</string>
 
-    <string name="d170">Común en el sotobosque y asociado con bandadas mixtas</string>
-    <string name="d171">Común en zonas abiertas y presente en pequeños arbustos</string>
-    <string name="d172">Común y muy llamativo por su coloración canela</string>
-    <string name="d173">Común y solitario de bosque subtropical</string>
-    <string name="d174">Muy común y asociado a fuentes hídricas</string>
-    <string name="d175">Común, habita en zonas montañosas y asociado con el Chusque</string>
-    <string name="d176">Común, se asocia con pequeños riachuelos</string>
-    <string name="d177">Común, se mueve entre el dosel y se asocia con bandadas mixtas</string>
-    <string name="d178">Común en áreas abiertas, se percha con frecuencia en alambres altos</string>
-    <string name="d179">Común hacia el interior de los bosques. Muy silencioso</string>
-    <string name="d180">Común, se le observa a menudo con bandadas mixtas</string>
-    <string name="d181">Común, se le observa a menudo en zonas urbanas de clima templado</string>
-    <string name="d182">Muy activo vocalmente, habita en zonas templadas y abiertas</string>
-    <string name="d183">Atrapamoscas muy bocal</string>
-    <string name="d184">A menudo muy vocal y común en clima templado</string>
-    <string name="d185">Migratorio, impredecible ya que a menudo estas en movimiento con individuos de su misma especie</string>
-    <string name="d186">Se le ve a menudo cerca de fuentes artificiales de luz ya que estas atraen una gran variedad de insectos para su alimentación</string>
-    <string name="d187">Muy común en áreas abiertas, Percha alto principalmente en redes de luz</string>
-    <string name="d188">Muy común y relacionada con especies de su misma familia</string>
-    <string name="d189">Muy común y relacionada con especies de su misma familia</string>
-    <string name="d190">Común en zonas boscosas y mayormente en grupos de su misma especie</string>
-    <string name="d191">Común en zonas templadas y semiabiertas, muy vocal</string>
-    <string name="d192">Común y colorido de clima templado, asociado con coníferas y mirtáceas</string>
-    <string name="d193">Común y asociado a corrientes acuosas</string>
-    <string name="d194">Común en el sotobosque y muy vocal, asociada a bandadas mixtas</string>
-    <string name="d195">Común en el sotobosque y muy vocal, asociada a bandadas mixtas</string>
-    <string name="d196">Común y oportunista que encuentra su hábitat en las casas</string>
-    <string name="d197">Común en los bajos boscosos, en ocasiones relacionados con bandadas mixtas</string>
-    <string name="d198">Poco común y muy local en los altos bosques occidentales</string>
-    <string name="d199">Común y llamativa por su recurrente vocalización</string>
-    <string name="d200">Común y difícil de observar ya que se ubica mayormente entre la densa vegetación</string>
     <string name="dfault"> Ave sind escripción disponible en el momento </string>
 
 </resources>

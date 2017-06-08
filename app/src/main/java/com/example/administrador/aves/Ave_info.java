@@ -203,7 +203,7 @@ public class Ave_info extends AppCompatActivity {
                 if (avistamiento.isChecked()) {
 
                     avistamiento.setEnabled(false);
-                    Toast.makeText(Ave_info.this, nombreave+""+getString(R.string.avistamiento2), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Ave_info.this, nombreave+" "+getString(R.string.avistamiento2), Toast.LENGTH_SHORT).show();
                     String[] campos2 = new String[]{"codigo","color1","color2","colorpata","pico","forma","espanol","ingles","cientifico","residencia","conserva","link","rutas","vistas"};
                     String[] args2 = new String[]{Identificador};
                     Cursor c2 = db.query("Aves", campos2, "codigo=?", args2, null, null, null);
@@ -817,8 +817,251 @@ public class Ave_info extends AppCompatActivity {
             case 199:
                 descripcion.setText(R.string.d199);
                 break;
-            case 200:
-                descripcion.setText(R.string.d200);
+            case 201:
+                descripcion.setText(R.string.d201);
+                break;
+            case 202:
+                descripcion.setText(R.string.d202);
+                break;
+            case 203:
+                descripcion.setText(R.string.d203);
+                break;
+            case 204:
+                descripcion.setText(R.string.d204);
+                break;
+            case 205:
+                descripcion.setText(R.string.d205);
+                break;
+            case 206:
+                descripcion.setText(R.string.d206);
+                break;
+            case 207:
+                descripcion.setText(R.string.d207);
+                break;
+            case 208:
+                descripcion.setText(R.string.d208);
+                break;
+            case 209:
+                descripcion.setText(R.string.d209);
+                break;
+            case 210:
+                descripcion.setText(R.string.d210);
+                break;
+            case 211:
+                descripcion.setText(R.string.d211);
+                break;
+            case 212:
+                descripcion.setText(R.string.d212);
+                break;
+            case 213:
+                descripcion.setText(R.string.d213);
+                break;
+            case 214:
+                descripcion.setText(R.string.d214);
+                break;
+            case 215:
+                descripcion.setText(R.string.d215);
+                break;
+            case 216:
+                descripcion.setText(R.string.d216);
+                break;
+            case 217:
+                descripcion.setText(R.string.d217);
+                break;
+            case 218:
+                descripcion.setText(R.string.d218);
+                break;
+            case 219:
+                descripcion.setText(R.string.d219);
+                break;
+            case 220:
+                descripcion.setText(R.string.d220);
+                break;
+            case 221:
+                descripcion.setText(R.string.d221);
+                break;
+            case 222:
+                descripcion.setText(R.string.d222);
+                break;
+            case 223:
+                descripcion.setText(R.string.d223);
+                break;
+            case 224:
+                descripcion.setText(R.string.d224);
+                break;
+            case 225:
+                descripcion.setText(R.string.d225);
+                break;
+            case 226:
+                descripcion.setText(R.string.d226);
+                break;
+            case 227:
+                descripcion.setText(R.string.d227);
+                break;
+            case 228:
+                descripcion.setText(R.string.d228);
+                break;
+            case 229:
+                descripcion.setText(R.string.d229);
+                break;
+            case 230:
+                descripcion.setText(R.string.d230);
+                break;
+            case 231:
+                descripcion.setText(R.string.d231);
+                break;
+            case 232:
+                descripcion.setText(R.string.d232);
+                break;
+            case 233:
+                descripcion.setText(R.string.d233);
+                break;
+            case 234:
+                descripcion.setText(R.string.d234);
+                break;
+            case 235:
+                descripcion.setText(R.string.d235);
+                break;
+            case 236:
+                descripcion.setText(R.string.d236);
+                break;
+            case 237:
+                descripcion.setText(R.string.d237);
+                break;
+            case 238:
+                descripcion.setText(R.string.d238);
+                break;
+            case 239:
+                descripcion.setText(R.string.d239);
+                break;
+            case 240:
+                descripcion.setText(R.string.d240);
+                break;
+            case 241:
+                descripcion.setText(R.string.d241);
+                break;
+            case 242:
+                descripcion.setText(R.string.d242);
+                break;
+            case 243:
+                descripcion.setText(R.string.d243);
+                break;
+            case 244:
+                descripcion.setText(R.string.d244);
+                break;
+            case 245:
+                descripcion.setText(R.string.d245);
+                break;
+            case 246:
+                descripcion.setText(R.string.d246);
+                break;
+            case 247:
+                descripcion.setText(R.string.d247);
+                break;
+            case 248:
+                descripcion.setText(R.string.d248);
+                break;
+            case 249:
+                descripcion.setText(R.string.d249);
+                break;
+            case 250:
+                descripcion.setText(R.string.d250);
+                break;
+            case 251:
+                descripcion.setText(R.string.d251);
+                break;
+            case 252:
+                descripcion.setText(R.string.d252);
+                break;
+            case 253:
+                descripcion.setText(R.string.d253);
+                break;
+            case 254:
+                descripcion.setText(R.string.d254);
+                break;
+            case 255:
+                descripcion.setText(R.string.d255);
+                break;
+            case 256:
+                descripcion.setText(R.string.d256);
+                break;
+            case 257:
+                descripcion.setText(R.string.d257);
+                break;
+            case 258:
+                descripcion.setText(R.string.d258);
+                break;
+            case 259:
+                descripcion.setText(R.string.d259);
+                break;
+            case 260:
+                descripcion.setText(R.string.d260);
+                break;
+            case 261:
+                descripcion.setText(R.string.d261);
+                break;
+            case 262:
+                descripcion.setText(R.string.d262);
+                break;
+            case 263:
+                descripcion.setText(R.string.d263);
+                break;
+            case 264:
+                descripcion.setText(R.string.d264);
+                break;
+            case 265:
+                descripcion.setText(R.string.d265);
+                break;
+            case 266:
+                descripcion.setText(R.string.d266);
+                break;
+            case 267:
+                descripcion.setText(R.string.d267);
+                break;
+            case 268:
+                descripcion.setText(R.string.d268);
+                break;
+            case 269:
+                descripcion.setText(R.string.d269);
+                break;
+            case 270:
+                descripcion.setText(R.string.d270);
+                break;
+            case 271:
+                descripcion.setText(R.string.d271);
+                break;
+            case 272:
+                descripcion.setText(R.string.d272);
+                break;
+            case 273:
+                descripcion.setText(R.string.d273);
+                break;
+            case 274:
+                descripcion.setText(R.string.d274);
+                break;
+            case 275:
+                descripcion.setText(R.string.d275);
+                break;
+            case 276:
+                descripcion.setText(R.string.d276);
+                break;
+            case 277:
+                descripcion.setText(R.string.d277);
+                break;
+            case 278:
+                descripcion.setText(R.string.d278);
+                break;
+            case 279:
+                descripcion.setText(R.string.d279);
+                break;
+            case 280:
+                descripcion.setText(R.string.d280);
+                break;
+            case 281:
+                descripcion.setText(R.string.d281);
+                break;
+            case 282:
+                descripcion.setText(R.string.d282);
                 break;
             default:
                 descripcion.setText(R.string.dfault);
@@ -835,29 +1078,48 @@ public class Ave_info extends AppCompatActivity {
                 info8.setText("Ventanas");
                 break;
             case 2:
-                info8.setText("Verdunmesina");
+                info8.setText("Verdun-mesenia");
                 break;
             case 3:
-                info8.setText("Verdunmesina & Ventanas");
+                info8.setText("Verdun-mesenia & Ventanas");
                 break;
             case 4:
-                info8.setText("SaladaMorroamarillo");
+                info8.setText("La Salada");
+                break;
+            case 5:
+                info8.setText("La Salada & Ventanas");
+                break;
+            case 6:
+                info8.setText("La Salada & Verdun-mesenia");
                 break;
             case 7:
-                info8.setText("SaladaMorroamarillo, Verdunmesina & Ventanas ");
+                info8.setText("La Salada, Verdun-mesenia & Ventanas ");
                 break;
             case 8:
-                info8.setText("Herrera");
+                info8.setText("La Herrera");
                 break;
             case 9:
-                info8.setText("Herrera & Ventanas");
+                info8.setText("La Herrera & Ventanas");
                 break;
-            case 15:
-                info8.setText("Herrera, SaladaMorroamarillo, Verdunmesina & Ventanas");
+            case 10:
+                info8.setText("La Herrera & Verdun-mesenia");
+                break;
+            case 11:
+                info8.setText("La Herrera, Verdun-mesenia & Ventanas");
+                break;
+            case 12:
+                info8.setText("La Herrera & La Salada");
                 break;
             case 13:
-                info8.setText("Herrera, SaladaMorroamarillo & Ventanas");
+                info8.setText("La Herrera, La Salada & Ventanas");
                 break;
+            case 14:
+                info8.setText("La Herrera, La Salada & Verdun-mesenia");
+                break;
+            case 15:
+                info8.setText("La Herrera, La Salada, Verdun-mesenia & Ventanas");
+                break;
+
             default:
                 info8.setText(R.string.rutainfo1);
                 break;
@@ -1008,21 +1270,6 @@ public class Ave_info extends AppCompatActivity {
             case 13:
                 info3.setText(R.string.colorinfo14);
                 break;
-            case 14:
-                info3.setText(R.string.colorinfo15);
-                break;
-            case 15:
-                info3.setText(R.string.colorinfo16);
-                break;
-            case 16:
-                info3.setText(R.string.colorinfo17);
-                break;
-            case 17:
-                info3.setText(R.string.colorinfo18);
-                break;
-            case 18:
-                info3.setText(R.string.colorinfo19);
-                break;
             default:
                 info3.setText(R.string.colorinfo1);
                 break;
@@ -1071,21 +1318,6 @@ public class Ave_info extends AppCompatActivity {
             case 13:
                 info4.setText(R.string.colorinfo14);
                 break;
-            case 14:
-                info4.setText(R.string.colorinfo15);
-                break;
-            case 15:
-                info4.setText(R.string.colorinfo16);
-                break;
-            case 16:
-                info4.setText(R.string.colorinfo17);
-                break;
-            case 17:
-                info4.setText(R.string.colorinfo18);
-                break;
-            case 18:
-                info4.setText(R.string.colorinfo19);
-                break;
             default:
                 info4.setText(R.string.colorinfo1);
                 break;
@@ -1133,21 +1365,6 @@ public class Ave_info extends AppCompatActivity {
                 break;
             case 13:
                 info5.setText(R.string.colorinfo14);
-                break;
-            case 14:
-                info5.setText(R.string.colorinfo15);
-                break;
-            case 15:
-                info5.setText(R.string.colorinfo16);
-                break;
-            case 16:
-                info5.setText(R.string.colorinfo17);
-                break;
-            case 17:
-                info5.setText(R.string.colorinfo18);
-                break;
-            case 18:
-                info5.setText(R.string.colorinfo19);
                 break;
             default:
                 info5.setText(R.string.colorinfo1);
@@ -1282,9 +1499,8 @@ public class Ave_info extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent goback = new Intent(Ave_info.this, Aves.class);
+        Intent goback = new Intent(Ave_info.this, Filtro.class);
         startActivity(goback);
         finish();
     }
-
 }

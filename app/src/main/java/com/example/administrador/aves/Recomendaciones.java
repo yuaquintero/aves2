@@ -37,9 +37,9 @@ public class Recomendaciones extends AppCompatActivity {
         r4 = (ImageButton) findViewById(R.id.r4);
         r5 = (ImageButton) findViewById(R.id.r5);
         r6 = (ImageButton) findViewById(R.id.r6);
-        r7 = (ImageButton) findViewById(R.id.r7);
-        r8 = (ImageButton) findViewById(R.id.r8);
-        r10 = (ImageButton) findViewById(R.id.r10);
+      //  r7 = (ImageButton) findViewById(R.id.r7);
+       // r8 = (ImageButton) findViewById(R.id.r8);
+     //   r10 = (ImageButton) findViewById(R.id.r10);
 
 
         r1.setOnClickListener(new View.OnClickListener() {
@@ -95,7 +95,7 @@ public class Recomendaciones extends AppCompatActivity {
             }
         });
 
-        r7.setOnClickListener(new View.OnClickListener() {
+       /* r7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 bandera=7;
@@ -120,7 +120,7 @@ public class Recomendaciones extends AppCompatActivity {
                 openCustomDialog(view, bandera);
 
             }
-        });
+        });*/
     }
     /**
      * Metodo que permite desplegar ventana emergente con la información solicitada
@@ -208,7 +208,7 @@ public class Recomendaciones extends AppCompatActivity {
                 });
                 dialog6.show();
                 break;
-            case 7:
+        /*    case 7:
                 final Dialog dialog7 = new Dialog(this);
                 dialog7.setContentView(R.layout.reco7);
                 dialog7.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
@@ -246,7 +246,7 @@ public class Recomendaciones extends AppCompatActivity {
                     }
                 });
                 dialog9.show();
-                break;
+                break;*/
 
         }
 

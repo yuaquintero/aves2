@@ -28,20 +28,20 @@ public class Aves extends AppCompatActivity {
     List<Ave_constructor> lista_aves;
     private RecyclerView rv;
     SQLiteDatabase db;
-    String[] codigoave = new String[290];
-    String[] nombreave = new String[290];
-    String[] inglesave = new String[290];
-    String[] cientificoave = new String[290];
-    String[] formaave = new String[290];
-    String[] color1ave = new String[290];
-    String[] color2ave = new String[290];
-    String[] picoave = new String[290];
-    String[] pataave = new String[290];
-    String[] residenciaave = new String[290];
-    String[] conservaave = new String[290];
-    String[] linkave = new String[290];
-    String[] rutasave = new String[290];
-    String[] vistasave = new String[290];
+    String[] codigoave = new String[282];
+    String[] nombreave = new String[282];
+    String[] inglesave = new String[282];
+    String[] cientificoave = new String[282];
+    String[] formaave = new String[282];
+    String[] color1ave = new String[282];
+    String[] color2ave = new String[282];
+    String[] picoave = new String[282];
+    String[] pataave = new String[282];
+    String[] residenciaave = new String[282];
+    String[] conservaave = new String[282];
+    String[] linkave = new String[282];
+    String[] rutasave = new String[282];
+    String[] vistasave = new String[282];
     String aux = "sin" ;
     CardView card;
 
@@ -75,11 +75,11 @@ public class Aves extends AppCompatActivity {
     //Se busca en base de datos local la informacion rederente al id del ave seleccionada por el usuario
     private void prepareMovieData() {
         lista_aves = new ArrayList<>();
-        String[] Arreglo = new String[290];
+        String[] Arreglo = new String[282];
         String contador;
         Integer cuenta=0;
 
-        for (int i = 0; i <290; i ++) {
+        for (int i = 0; i <282; i ++) {
             cuenta=1+i;
             contador= String.valueOf(cuenta);
             Arreglo[i] = contador;

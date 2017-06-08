@@ -212,7 +212,7 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
         //asignar un layout XML para el diálogo
         dialog.setContentView(R.layout.dialogo_calificar);
         // personalizar componentes del XML
-        dialog.setTitle(R.string.titulo_califica);
+        dialog.setTitle(R.string.titulo_califica_sitio);
         Button botCalificar = (Button) dialog.findViewById(R.id.b_aceptar);
         final RatingBar rbValoracion = (RatingBar) dialog.findViewById(R.id.rb_calificar);
         //Acción del botón, cerrar ventana al terminar

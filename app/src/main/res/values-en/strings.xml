@@ -80,13 +80,8 @@
     <string name="colorinfo10"> Black </string>
     <string name="colorinfo11"> Dusty Brown </string>
     <string name="colorinfo12"> Red </string>
-    <string name="colorinfo13"> Pink </string>
-    <string name="colorinfo14"> Russet </string>
-    <string name="colorinfo15"> Turquoise </string>
-    <string name="colorinfo16"> Green </string>
-    <string name="colorinfo17"> Violet </string>
-    <string name="colorinfo18"> Beige </string>
-    <string name="colorinfo19"> Olive Green </string>
+    <string name="colorinfo13"> Russet</string>
+    <string name="colorinfo14"> Green</string>
 
     <string name="filtro1"> SEARCH CRITERIA</string>
     <string name="filtro2"> Search  </string>
@@ -94,17 +89,17 @@
 
     <string name="recomiendame"> Select each landscape item for general information </string>
 
-    <string name="recor1"> to know the route you want to make, Select each landscape item for general information </string>
+    <string name="recor1"> -To know the route you want to make, Select each landscape item for general information </string>
     <string name="recor2"> - You should Wear comfortable clothing for the occasion, preferably opaque and water-resistant </string>
-    <string name="recor3"> Always carry hydration and food</string>
-    <string name="recor4"> Look at the moment of the sighting Do not make movements or loud noises, always talk in a low voice </string>
+    <string name="recor3"> - Always carry hydration and food</string>
+    <string name="recor4"> - Look at the moment of the sighting Do not make movements or loud noises, always talk in a low voice </string>
     <string name="recor5"> - Be patient, remember that birds live at their own pace </string>
     <string name="recor6"> - If possible go with a local guide, this will facilitate the recognition of the routes and species of birds </string>
-    <string name="recor7"> Respect to the maximum the places indicated as private or restricted to the public </string>
-    <string name="recor8"> Do not throw garbage, respect the ecosystems; Do not extract natural material from forests, trails and roads </string>
+    <string name="recor7"> - Respect to the maximum the places indicated as private or restricted to the public </string>
+    <string name="recor8"> - Do not throw garbage, respect the ecosystems; Do not extract natural material from forests, trails and roads </string>
     <string name="recor9"> - If you have binoculars, cameras and field guides always take them with you this will facilitate the development of the activity </string>
     <string name="recor10"> - Always plan the time of return, inform yourself of the transportation schedules if you are going to make use of the public service </string>
-    <string name="recor11"> Keep in mind that the activity of the birds by their wild state is changing and will not always be in the expected place </string>
+    <string name="recor11"> - Keep in mind that the activity of the birds by their wild state is changing and will not always be in the expected place </string>
     <string name="recor12"> - Always follow the recommendations of your local guide </string>
 
     <string name="turismoinfo1">Adress:</string>
@@ -195,7 +190,6 @@
     <string-array name="ColorPrincipal">
         <item>  Others </item>
         <item>  Yellow </item>
-        <item>  Beige </item>
         <item>  Blue </item>
         <item>  White </item>
         <item>  Brown </item>
@@ -204,20 +198,15 @@
         <item>  Purple </item>
         <item>  Orange </item>
         <item>  Black </item>
-        <item>  Olive Green </item>
         <item>  Dusty Brown </item>
         <item>  Red </item>
-        <item>  Pink </item>
         <item>  Russet </item>
-        <item>  Turqoise </item>
         <item>  Green </item>
-        <item>  Violet </item>
     </string-array>
 
     <string-array name="ColorSecundario">
         <item>  Others </item>
         <item>  Yellow </item>
-        <item>  Beige </item>
         <item>  Blue </item>
         <item>  White </item>
         <item>  Brown </item>
@@ -226,14 +215,10 @@
         <item>  Purple </item>
         <item>  Orange </item>
         <item>  Black </item>
-        <item>  Olive Green </item>
         <item>  Dusty Brown </item>
         <item>  Red </item>
-        <item>  Pink </item>
         <item>  Russet </item>
-        <item>  Turqoise </item>
         <item>  Green </item>
-        <item>  Violet </item>
     </string-array>
 
     <string-array name="sitios_array">

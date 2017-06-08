@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:background="@color/colorPrimary"
     android:id="@+id/layout_calificar">
 
     <LinearLayout
@@ -30,15 +29,15 @@
             android:layout_margin="15dp" />
 
         <RatingBar
+            android:id="@+id/rb_calificar"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rb_calificar"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
             android:numStars="5"
             android:rating="3"
-            android:stepSize="1"
-            android:layout_gravity="center_horizontal"
-            style="@style/CustomStarRatingBar"
-            android:layout_margin="20dp" />
+            android:stepSize="1" />
 
         <Button
             android:text="@string/boton_aceptar"

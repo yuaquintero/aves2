@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
@@ -64,53 +65,38 @@ public class Avistamiento extends AppCompatActivity  {
                             ivCriterio1.setImageResource(R.drawable.color_azul);
                             colorPrimario="2";
                         }else if (position == 3){
-                            ivCriterio1.setImageResource(R.drawable.color_beige);
-                            colorPrimario="17";
-                        }else if (position == 4){
                             ivCriterio1.setImageResource(R.drawable.color_blanco);
                             colorPrimario="3";
-                        }else if (position == 5){
+                        }else if (position == 4){
                             ivCriterio1.setImageResource(R.drawable.color_cafe);
                             colorPrimario="4";
-                        }else if (position == 6){
+                        }else if (position == 5){
                             ivCriterio1.setImageResource(R.drawable.color_dorado);
                             colorPrimario="5";
-                        }else if (position == 7){
+                        }else if (position == 6){
                             ivCriterio1.setImageResource(R.drawable.color_gris);
                             colorPrimario="6";
-                        }else if (position == 8){
+                        }else if (position == 7){
                             ivCriterio1.setImageResource(R.drawable.color_morado);
                             colorPrimario="7";
-                        }else if (position == 9) {
+                        }else if (position == 8) {
                             ivCriterio1.setImageResource(R.drawable.color_naranja);
                             colorPrimario = "8";
-                        }else if (position == 10) {
+                        }else if (position == 9) {
                             ivCriterio1.setImageResource(R.drawable.color_negro);
                             colorPrimario = "9";
-                        }else if (position == 11) {
-                            ivCriterio1.setImageResource(R.drawable.color_oliva);
-                            colorPrimario = "18";
-                        }else if (position == 12) {
+                        }else if (position == 10) {
                             ivCriterio1.setImageResource(R.drawable.color_pardo);
                             colorPrimario = "10";
-                        }else if (position == 13) {
+                        }else if (position == 11) {
                             ivCriterio1.setImageResource(R.drawable.color_rojo);
                             colorPrimario = "11";
-                        }else if (position == 14) {
-                            ivCriterio1.setImageResource(R.drawable.color_rosado);
-                            colorPrimario = "12";
-                        }else if (position == 15) {
+                        }else if (position == 12) {
                             ivCriterio1.setImageResource(R.drawable.color_rufo);
-                            colorPrimario = "13";
-                        }else if (position == 16) {
-                            ivCriterio1.setImageResource(R.drawable.color_turquesa);
-                            colorPrimario = "14";
-                        }else if (position == 17) {
+                            colorPrimario = "12";
+                        }else if (position == 13) {
                             ivCriterio1.setImageResource(R.drawable.color_verde);
-                            colorPrimario = "15";
-                        }else if (position == 18) {
-                            ivCriterio1.setImageResource(R.drawable.color_violeta);
-                            colorPrimario = "16";
+                            colorPrimario = "13";
                         }
                     }
 
@@ -137,53 +123,38 @@ public class Avistamiento extends AppCompatActivity  {
                             ivCriterio2.setImageResource(R.drawable.color_azul);
                             colorSecundario="2";
                         }else if (position == 3){
-                            ivCriterio2.setImageResource(R.drawable.color_beige);
-                            colorSecundario="17";
-                        }else if (position == 4){
                             ivCriterio2.setImageResource(R.drawable.color_blanco);
                             colorSecundario="3";
-                        }else if (position == 5){
+                        }else if (position == 4){
                             ivCriterio2.setImageResource(R.drawable.color_cafe);
                             colorSecundario="4";
-                        }else if (position == 6){
+                        }else if (position == 5){
                             ivCriterio2.setImageResource(R.drawable.color_dorado);
                             colorSecundario="5";
-                        }else if (position == 7){
+                        }else if (position == 6){
                             ivCriterio2.setImageResource(R.drawable.color_gris);
                             colorSecundario="6";
-                        }else if (position == 8){
+                        }else if (position == 7){
                             ivCriterio2.setImageResource(R.drawable.color_morado);
                             colorSecundario="7";
-                        }else if (position == 9) {
+                        }else if (position == 8) {
                             ivCriterio2.setImageResource(R.drawable.color_naranja);
                             colorSecundario = "8";
-                        }else if (position == 10) {
+                        }else if (position == 9) {
                             ivCriterio2.setImageResource(R.drawable.color_negro);
                             colorSecundario = "9";
-                        }else if (position == 11) {
-                            ivCriterio2.setImageResource(R.drawable.color_oliva);
-                            colorSecundario = "18";
-                        }else if (position == 12) {
+                        }else if (position == 10) {
                             ivCriterio2.setImageResource(R.drawable.color_pardo);
                             colorSecundario = "10";
-                        }else if (position == 13) {
+                        }else if (position == 11) {
                             ivCriterio2.setImageResource(R.drawable.color_rojo);
                             colorSecundario = "11";
-                        }else if (position == 14) {
-                            ivCriterio2.setImageResource(R.drawable.color_rosado);
-                            colorSecundario = "12";
-                        }else if (position == 15) {
+                        }else if (position == 12) {
                             ivCriterio2.setImageResource(R.drawable.color_rufo);
-                            colorSecundario = "13";
-                        }else if (position == 16) {
-                            ivCriterio2.setImageResource(R.drawable.color_turquesa);
-                            colorSecundario = "14";
-                        }else if (position == 17) {
+                            colorSecundario = "12";
+                        }else if (position == 13) {
                             ivCriterio2.setImageResource(R.drawable.color_verde);
-                            colorSecundario = "15";
-                        }else if (position == 18) {
-                            ivCriterio2.setImageResource(R.drawable.color_violeta);
-                            colorSecundario = "16";
+                            colorSecundario = "13";
                         }
                     }
 
@@ -322,6 +293,13 @@ public class Avistamiento extends AppCompatActivity  {
         });
 
     }
-
+    @Override
+    public void onBackPressed() {
+        Intent Home = new Intent(Avistamiento.this, Home.class);
+        ActivityCompat.finishAffinity(this);
+        startActivity(Home);
+        Home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        finish();
+    }
 
 }

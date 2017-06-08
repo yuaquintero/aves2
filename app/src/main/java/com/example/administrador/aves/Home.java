@@ -281,6 +281,8 @@ public class Home extends AppCompatActivity {
         Intent j = new Intent(this, Guias.class);
         startActivity(j);
     }
+
+
 }
 
 

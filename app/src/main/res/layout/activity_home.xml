@@ -9,7 +9,7 @@
     android:paddingLeft="1dp"
     android:paddingRight="1dp"
     android:paddingTop="8dp"
-    android:background="@drawable/back"
+    android:background="@drawable/home7"
     tools:context="com.example.administrador.aves.Home">
 
     <LinearLayout
@@ -41,7 +41,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="10dp">
+            android:layout_height="30dp">
         </LinearLayout>
 
         <Button
