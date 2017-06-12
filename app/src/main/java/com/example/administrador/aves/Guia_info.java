@@ -94,22 +94,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         );
         String tel=String.valueOf(miLugar2.getTelefono());
         Tvtelefono.setText(String.valueOf(miLugar2.getTelefono()));
-
-        Tvemail = (TextView) findViewById(R.id.mailguia);
-        Tvemail.setText(miLugar2.getEmail());
-
-        Tvlink = (TextView) findViewById(R.id.pag_guia);
-        Tvlink.setText(miLugar2.getEnlace());
-
-        Tvinfo = (TextView) findViewById(R.id.comentarioguia);
-        Tvinfo.setText(miLugar2.getComentario());
-
-        //tv_nota = (TextView)findViewById(R.id.tv_nota);
-
-        permiso = new Permisos(miLayout,Guia_info.this);
-
-        b_telefono = (ImageButton) findViewById(R.id.b_llamar);
-        b_telefono.setOnClickListener(new View.OnClickListener() {
+        Tvtelefono.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String tele=String.valueOf(miLugar2.getTelefono());
@@ -123,6 +108,48 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
             }
 
         });
+
+        Tvemail = (TextView) findViewById(R.id.mailguia);
+        Tvemail.setText(miLugar2.getEmail());
+        Tvemail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String mail=miLugar2.getEmail();
+                if(mail != null)
+                    permiso.Lanzar_Email(miLugar2.getEmail(),1);
+                else {
+                    String msg=getString(R.string.no_mail);
+                    Toast.makeText(Guia_info.this,msg,Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        Tvlink = (TextView) findViewById(R.id.pag_guia);
+        Tvlink.setAutoLinkMask(1);
+        Tvlink.setText(miLugar2.getEnlace());
+
+        Tvinfo = (TextView) findViewById(R.id.comentarioguia);
+        Tvinfo.setText(miLugar2.getComentario());
+
+        //tv_nota = (TextView)findViewById(R.id.tv_nota);
+
+        permiso = new Permisos(miLayout,Guia_info.this);
+
+       /* b_telefono = (ImageButton) findViewById(R.id.b_llamar);
+        b_telefono.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tele=String.valueOf(miLugar2.getTelefono());
+
+                if(tele != null)
+                    permiso.LanzarLlamada(String.valueOf(miLugar2.getTelefono()));
+                else {
+                    String msg=getString(R.string.no_tele);
+                    Toast.makeText(Guia_info.this,msg,Toast.LENGTH_SHORT).show();
+                }
+            }
+
+        });*/
 //********
 //habilitar el boton de calificar
         b_califica = (Button)findViewById(R.id.b_califica);
@@ -141,7 +168,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         });
 //*********
         //invocar código para enviar mail
-        b_correo = (ImageButton) findViewById(R.id.b_mail);
+      /*  b_correo = (ImageButton) findViewById(R.id.b_mail);
         b_correo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -153,7 +180,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
                     Toast.makeText(Guia_info.this,msg,Toast.LENGTH_SHORT).show();
                 }
             }
-        });
+        });*/
     }
 
     @Override

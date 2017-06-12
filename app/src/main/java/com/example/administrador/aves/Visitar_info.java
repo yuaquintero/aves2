@@ -56,9 +56,11 @@ public class Visitar_info extends AppCompatActivity {
         Tvnombre.setText( miSitio.getNombre());
 
         Tvlink = (TextView) findViewById(R.id.tvVisitarLink);
+        Tvlink.setAutoLinkMask(1);
+
         Tvlink.setText( miSitio.getLink());
 
-        BLink =(Button) findViewById(R.id.bLink);
+        //BLink =(Button) findViewById(R.id.bLink);
         //LinkSitio=miSitio.getLink().toString();
 
         Tvdescripcion = (TextView) findViewById(R.id.tvVisitarDescripcion);
@@ -78,14 +80,14 @@ public class Visitar_info extends AppCompatActivity {
             }
         });
 
-        BLink.setOnClickListener(new View.OnClickListener() {
+     /*   BLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myWebLink2 = new Intent(android.content.Intent.ACTION_VIEW);
                 myWebLink2.setData(Uri.parse(miSitio.getLink()));
                 startActivity(myWebLink2);
             }
-        });
+        });*/
 
     }
 

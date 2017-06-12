@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Spannable;
+import android.text.style.UnderlineSpan;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -101,7 +103,9 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
         Tvcomentario = (TextView) findViewById(R.id.comentario);
         Tvcomentario.setText(miLugar.getComentario());
 
+
         Tvenlace = (TextView) findViewById(R.id.enlace_inf);
+        Tvenlace.setAutoLinkMask(1);
         Tvenlace.setText(miLugar.getEnlace());
 
         ViewFoto= (ImageView) findViewById(R.id.foto);
@@ -118,25 +122,7 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
         Tvtelefono = (TextView) findViewById(R.id.tel);
         String tel=String.valueOf(miLugar.getTelefono());
         Tvtelefono.setText(String.valueOf(miLugar.getTelefono()));
-
-
-
-        Tvemail = (TextView) findViewById(R.id.temail);
-        Tvemail.setText(miLugar.getEmail());
-
-        Tvdistancia = (TextView) findViewById(R.id.dis);
-        Tvdistancia.setText(miLugar.getDistancia());
-
-        Tvruta = (TextView) findViewById(R.id.ruta);
-        Tvruta.setText(miLugar.getRuta());
-        //tv_nota = (TextView)findViewById(R.id.tv_nota);
-
-        permiso = new Permisos(miLayout,Turismo_info.this);
-
-
-
-        b_telefono = (ImageButton) findViewById(R.id.b_llamar2);
-        b_telefono.setOnClickListener(new View.OnClickListener() {
+        Tvtelefono.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String tele=String.valueOf(miLugar.getTelefono());
@@ -150,6 +136,52 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
             }
 
         });
+
+        Tvemail = (TextView) findViewById(R.id.temail);
+        Tvemail.setText(miLugar.getEmail());
+
+        Tvemail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String mail=miLugar.getEmail();
+                if(mail != null)
+                    permiso.Lanzar_Email(miLugar.getEmail(),1);
+                else {
+                    String msg=getString(R.string.no_mail);
+                    Toast.makeText(Turismo_info.this,msg,Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+        Tvdistancia = (TextView) findViewById(R.id.dis);
+
+        Tvdistancia.setText(miLugar.getDistancia());
+
+        Tvruta = (TextView) findViewById(R.id.ruta);
+        Tvruta.setText(miLugar.getRuta());
+
+        //tv_nota = (TextView)findViewById(R.id.tv_nota);
+
+        permiso = new Permisos(miLayout,Turismo_info.this);
+
+
+
+       /* b_telefono = (ImageButton) findViewById(R.id.b_llamar2);
+        b_telefono.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tele=String.valueOf(miLugar.getTelefono());
+
+                if(tele != null)
+                    permiso.LanzarLlamada(String.valueOf(miLugar.getTelefono()));
+                else {
+                    String msg=getString(R.string.no_tele);
+                    Toast.makeText(Turismo_info.this,msg,Toast.LENGTH_SHORT).show();
+                }
+            }
+
+        });*/
 
         b_califica = (Button)findViewById(R.id.b_califica);
         b_califica.setOnClickListener(new View.OnClickListener() {
@@ -167,7 +199,7 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
         });
 
         //invocar código para enviar mail
-        b_correo = (ImageButton) findViewById(R.id.b_mail2);
+        /*b_correo = (ImageButton) findViewById(R.id.b_mail2);
         b_correo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -179,7 +211,7 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
                     Toast.makeText(Turismo_info.this,msg,Toast.LENGTH_SHORT).show();
                 }
             }
-        });
+        });*/
     }
 
     @Override

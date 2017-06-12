@@ -80,11 +80,11 @@
                             android:background="@drawable/arrow_right"/>
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_weight="5"
-                    android:layout_height="0dp">
-                </LinearLayout>
+                    android:layout_height="0dp"
+                    android:layout_weight="5"></LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -94,7 +94,7 @@
                 android:layout_gravity="center"
                 android:id="@+id/ave_nombre"
                 android:textSize="20sp"
-                android:textColor="@color/black"
+                android:textColor="@color/gray"
                 android:textStyle="bold"
                 android:text="Ave N"
                 android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                 android:layout_gravity="center"
                 android:id="@+id/ave_nombre_en"
                 android:textSize="20sp"
-                android:textColor="@color/black"
+                android:textColor="@color/gray"
                 android:textStyle="bold"
                 android:text="BIRD N"
                 android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
                 android:layout_gravity="center"
                 android:id="@+id/ave_nombre_cientifico"
                 android:textSize="18sp"
-                android:textColor="@color/black"
+                android:textColor="@color/gray"
                 android:textStyle="italic"
                 android:text="Pajarus Pajarus N"
                 android:layout_width="wrap_content"
@@ -128,47 +128,51 @@
                     android:layout_height="wrap_content"
                     android:text="@string/avistamiento3"
                     android:textSize="18sp"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/gray"/>
                 <CheckBox
                     android:gravity="center"
                     android:id="@+id/chequeo"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+
+                    />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
+
                 <ImageButton
                     android:id="@+id/btnTomaFoto"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/camera"
-                    android:layout_gravity="center"/>
+                    android:background="@drawable/camera" />
+
                 <LinearLayout
                     android:layout_width="30dp"
-                    android:layout_height="1dp">
-                </LinearLayout>
+                    android:layout_height="1dp"></LinearLayout>
+
                 <ImageButton
                     android:id="@+id/ave_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@drawable/play"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:background="@drawable/play" />
+
                 <LinearLayout
                     android:layout_width="30dp"
-                    android:layout_height="1dp">
-                </LinearLayout>
+                    android:layout_height="1dp"></LinearLayout>
 
                 <ImageButton
                     android:id="@+id/btnCompartir"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/share"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:background="@drawable/share" />
             </LinearLayout>
 
             <ImageView
@@ -179,261 +183,316 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="10dp">
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/describe"/>
+
+
             </LinearLayout>
-            <TextView
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:id="@+id/describe"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp">
-            </LinearLayout>
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave1"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:orientation="horizontal"
+                android:padding="5dp"
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
+                >
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion1"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="akdhajdhajshdjadh" />
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion1"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                >
+
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion2"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dksjksjadfkajsdkfjasd"
+
+                    />
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave2"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="5dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                >
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion3"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="alkdhlahdajsdh"
+                    />
+
+
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion2"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp">
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave4"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion4"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mndkajkjakj"
+
+                    />
+
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave3"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="5dp">
-            </LinearLayout>
-
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion3"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp">
-            </LinearLayout>
-
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave4"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-            </LinearLayout>
-
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion4"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp">
-            </LinearLayout>
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
 
             <TextView
                 android:paddingLeft="10dp"
                 android:layout_gravity="start"
                 android:id="@+id/Tituloave5"
-                android:background="@color/whitesmoket"
+                android:background="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="@color/black"
+                android:textColor="@color/gray"
                 android:text="@string/info5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-            </LinearLayout>
 
             <TextView
                 android:paddingLeft="10dp"
                 android:layout_gravity="start"
                 android:id="@+id/ave_informacion5"
                 android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:textColor="@color/gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kajdakjdhasd"
+                />
+
+            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                >
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave6"
+                    android:background="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion6"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="akdhjakshdjahsdlkjhaskjdh"
+
+                    />
+
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave6"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="5dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                >
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave7"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion6"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                >
+
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion7"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="skajdaksjdaksjdkajs"/>
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave7"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="5dp">
-            </LinearLayout>
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                >
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion7"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/Tituloave8"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/info8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="20dp">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/ave_informacion8"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
             </LinearLayout>
 
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/Tituloave8"
-                android:background="@color/whitesmoket"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="@string/info8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="5dp">
-            </LinearLayout>
-
-            <TextView
-                android:paddingLeft="10dp"
-                android:layout_gravity="start"
-                android:id="@+id/ave_informacion8"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
