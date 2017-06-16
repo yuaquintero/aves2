@@ -2,6 +2,7 @@ package com.example.administrador.aves;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
@@ -34,17 +35,25 @@ import java.util.List;
 public class Avistamiento extends AppCompatActivity  {
 
     Button bFiltrar;
+
     String colorPrimario, colorSecundario, formaAve, formaPico;
     ImageView ivCriterio1, ivCriterio2, ivCriterio4, ivCriterio5 ;
     LinearLayout formitas,piquitos,colorsitos;
     Spinner sCriterio5, sCriterio4, sCriterio1, sCriterio2;
 
-
+    //***** Declaración preferencias
+    public SharedPreferences preferenciasfiltro;
+    final Context contextofiltro = this;  //*****
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_avistamiento);
+
+        //*****  Para guardar las preferencias
+        preferenciasfiltro = contextofiltro.getSharedPreferences("Mispreferenciasfiltro", Context.MODE_PRIVATE);
+        final SharedPreferences.Editor editarfiltro = preferenciasfiltro.edit();
+        editarfiltro.commit();   //*****
 
         ivCriterio1=(ImageView) findViewById(R.id.ivColor1);
         sCriterio1=(Spinner) findViewById(R.id.spinner1);
@@ -81,7 +90,7 @@ public class Avistamiento extends AppCompatActivity  {
                             colorPrimario="7";
                         }else if (position == 8) {
                             ivCriterio1.setImageResource(R.drawable.color_naranja);
-                            colorPrimario = "8";
+                            colorPrimario ="8";
                         }else if (position == 9) {
                             ivCriterio1.setImageResource(R.drawable.color_negro);
                             colorPrimario = "9";
@@ -269,25 +278,32 @@ public class Avistamiento extends AppCompatActivity  {
         colorsitos.setVisibility(View.GONE);*/
 
 
-
-
         bFiltrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+
+                SharedPreferences.Editor editarfiltro = preferenciasfiltro.edit();
+
+                editarfiltro.putString("color1", colorPrimario);
+                editarfiltro.putString("color2", colorSecundario);
+                editarfiltro.putString("formave", formaAve);
+                editarfiltro.putString("formapico", formaPico);
+                editarfiltro.commit();
 
                 Intent explicit_intent;
                 explicit_intent = new Intent(Avistamiento.this,Filtro.class);
 
                 if(view==bFiltrar){
-
+                    /*
                     explicit_intent.putExtra("colorPrimario",colorPrimario);
                     explicit_intent.putExtra("colorSecundario",colorSecundario);
                     explicit_intent.putExtra("formaPico",formaPico);
-                    explicit_intent.putExtra("formaAve",formaAve);
+                    explicit_intent.putExtra("formaAve",formaAve);*/
+
 
                     startActivity(explicit_intent);
                 }
-
 
             }
         });

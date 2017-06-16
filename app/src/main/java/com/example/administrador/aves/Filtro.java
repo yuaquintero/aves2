@@ -1,6 +1,8 @@
 package com.example.administrador.aves;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v4.app.ActivityCompat;
@@ -38,6 +40,10 @@ public class Filtro extends AppCompatActivity {
     Integer aves=0;
     String aux = "sin";
 
+    //*****Declaración preferencias
+    public SharedPreferences preferenciasfiltro;
+    final Context contextofiltro = this;  //*****
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,12 +57,23 @@ public class Filtro extends AppCompatActivity {
         Intent intent=getIntent();
         Bundle extras =intent.getExtras();
 
+
+        preferenciasfiltro = contextofiltro.getSharedPreferences("Mispreferenciasfiltro", Context.MODE_PRIVATE);
+        final SharedPreferences.Editor editarfiltro = preferenciasfiltro.edit();
+        editarfiltro.commit();
+
         //Evalúa los datos traídos de actividad anterior
-        if (extras != null) {//ver si contiene datos
+        if (preferenciasfiltro != null) {//ver si contiene datos
+
+            String colorPrimarioR = preferenciasfiltro.getString("color1","0");
+            String colorSecundarioR = preferenciasfiltro.getString("color2","0");
+            String formaAveR = preferenciasfiltro.getString("formave","0");
+            String formaPicoR = preferenciasfiltro.getString("formapico","0");
+            /*
             String colorPrimarioR=(String)extras.get("colorPrimario");
             String colorSecundarioR=(String)extras.get("colorSecundario");
             String formaPicoR= (String) extras.get("formaPico");
-            String formaAveR= (String) extras.get("formaAve");
+            String formaAveR= (String) extras.get("formaAve"); */
 
             colorprimario.setText(colorPrimarioR);
             colorsecundario.setText(colorSecundarioR);

@@ -68,6 +68,13 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Visitar_info"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Ruta_info"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Rutas"
+            android:label="@string/cardrutas"
             android:screenOrientation="portrait">
         </activity>
     </application>

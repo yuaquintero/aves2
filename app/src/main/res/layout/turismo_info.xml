@@ -26,7 +26,7 @@
 
             <ImageView
                 android:id="@+id/foto"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:gravity="center" />
@@ -70,7 +70,7 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/whitesmoket"
+                    android:background="@color/white"
                     android:text="@string/turismoinfo2"
                     android:textColor="@color/gray"
                     android:textSize="17dp"
@@ -102,7 +102,6 @@
                     android:contextClickable="false"
                     android:linksClickable="false"
                     android:paddingLeft="5dp"
-                    android:text="@string/numerotel"
                     android:textColor="@color/colorPrimary"
                     android:textSize="17dp"
                     android:textStyle="bold" />

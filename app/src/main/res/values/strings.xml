@@ -3,6 +3,7 @@
     <string name="Titulo_Splash"> COTINGA </string>
 
     <string name="home"> home </string>
+    <!--string name="home1"> Aves </string-->
     <string name="home1"> Aves </string>
     <string name="home4"> Turismo </string>
     <string name="home5"> Rutas de Avistamiento </string>
@@ -107,7 +108,7 @@
     <string name="turismoinfo4">Distancia desde la cabecera:</string>
     <string name="turismoinfo5">Ruta:</string>
     <string name="turismoinfo6">Información:</string>
-    
+
     <string name="Redes">Visitar:</string>
 
     <string name="link">Visitar sitio web</string>
@@ -130,6 +131,7 @@
     <string name="cardturistico">Sitios turísticos en el municipio </string>
     <string name="cardintereses">Páginas WEB de Interés </string>
     <string name="cardrecom">Recomendaciones generales </string>
+    <string name="cardrutas">Rutas de Avistamiento </string>
 
 
     <string name="asunto_mail_turismo">Contacto Aves de Jardín</string>
@@ -240,6 +242,16 @@
     </string-array>
 
     <string name="no_sitio">No hay resultados. Intente con otro criterio</string>
+
+
+    <string name="ruta1">La Herrera</string>
+    <string name="ruta2">La Salada</string>
+    <string name="ruta3">Verdun-Mesenia</string>
+    <string name="ruta4">Ventanas</string>
+
+    <string name="longitud">Longitud de la ruta: </string>
+
+
 
 
     <!-- Nuevos Juanjojojo-->

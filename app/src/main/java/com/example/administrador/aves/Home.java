@@ -84,6 +84,13 @@ public class Home extends AppCompatActivity {
             }
         });
 
+        rutas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+          lanzarRutas(view);
+            }
+        });
+
         turismo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view) {
@@ -155,6 +162,7 @@ public class Home extends AppCompatActivity {
             }
         });
     }
+
 
     /**
      * Metodo para incluir el menu de opciones en la barra de actividades del Home
@@ -279,6 +287,12 @@ public class Home extends AppCompatActivity {
 
     public void lanzarGuia(View view){
         Intent j = new Intent(this, Guias.class);
+        startActivity(j);
+    }
+
+
+    public void lanzarRutas(View view){
+        Intent j = new Intent(this, Rutas.class);
         startActivity(j);
     }
 

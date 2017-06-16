@@ -3,7 +3,7 @@
     <item name="text_verde" type="color">#006e24</item>
     <item name="text_gris" type="color">#4c4c4c</item>
     <color name="colorVerde">#78ae3f</color>
-    <item name="verde" type="color">#78ae3f</item>
+    <item name="verde" type="color">#A3C442</item>
 
     <color name="activitybar">#008c30</color>
     <color name="colorPrimary">#008c30</color>
